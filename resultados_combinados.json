@@ -1,0 +1,361 @@
+[
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Anguila Mañana",
+        "numeros": [
+            "42",
+            "92",
+            "25"
+        ],
+        "fecha": "15-07-2025 10:01",
+        "hora_scrapeo": "2025-07-15 10:24:39"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Mañana 10:00AM",
+        "numeros": [
+            "42",
+            "92",
+            "25"
+        ],
+        "fecha": "15 julio",
+        "hora": "9:55AM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Mañana 9AM",
+        "numeros": [
+            "92",
+            "69",
+            "45"
+        ],
+        "fecha": "15 julio",
+        "hora": "8:55AM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Mañana 8AM",
+        "numeros": [
+            "91",
+            "11",
+            "92"
+        ],
+        "fecha": "15 julio",
+        "hora": "7:50AM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "New York Noche",
+        "numeros": [
+            "90",
+            "06",
+            "43"
+        ],
+        "fecha": "14 julio",
+        "hora": "10:25PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Noche 10PM",
+        "numeros": [
+            "60",
+            "16",
+            "68"
+        ],
+        "fecha": "14 julio",
+        "hora": "9:50PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Loteria Florida Noche",
+        "numeros": [
+            "31",
+            "74",
+            "75"
+        ],
+        "fecha": "14 julio",
+        "hora": "9:40PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Loteria Nacional Noche",
+        "numeros": [
+            "84",
+            "84",
+            "11"
+        ],
+        "fecha": "14 julio",
+        "hora": "8:52PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Leidsa Noche",
+        "numeros": [
+            "18",
+            "11",
+            "45"
+        ],
+        "fecha": "14 julio",
+        "hora": "8:53PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Noche 9:00PM",
+        "numeros": [
+            "55",
+            "00",
+            "97"
+        ],
+        "fecha": "14 julio",
+        "hora": "8:55PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Noche 8PM",
+        "numeros": [
+            "28",
+            "20",
+            "28"
+        ],
+        "fecha": "14 julio",
+        "hora": "7:55PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "La Primera Noche",
+        "numeros": [
+            "51",
+            "97",
+            "11"
+        ],
+        "fecha": "14 julio",
+        "hora": "7:55PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Loteka Noche",
+        "numeros": [
+            "15",
+            "48",
+            "64"
+        ],
+        "fecha": "14 julio",
+        "hora": "7:55PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "King lottery Noche",
+        "numeros": [
+            "95",
+            "27",
+            "28"
+        ],
+        "fecha": "14 julio",
+        "hora": "7:25PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Noche 7PM",
+        "numeros": [
+            "67",
+            "49",
+            "07"
+        ],
+        "fecha": "14 julio",
+        "hora": "6:55PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "La Suerte noche",
+        "numeros": [
+            "66",
+            "68",
+            "90"
+        ],
+        "fecha": "14 julio",
+        "hora": "5:55PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Tarde 6:00PM",
+        "numeros": [
+            "80",
+            "76",
+            "93"
+        ],
+        "fecha": "14 julio",
+        "hora": "5:55PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Tarde 5PM",
+        "numeros": [
+            "51",
+            "35",
+            "80"
+        ],
+        "fecha": "14 julio",
+        "hora": "4:55PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Tarde 4PM",
+        "numeros": [
+            "98",
+            "57",
+            "86"
+        ],
+        "fecha": "14 julio",
+        "hora": "3:55PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Tarde 3PM",
+        "numeros": [
+            "69",
+            "52",
+            "83"
+        ],
+        "fecha": "14 julio",
+        "hora": "2:55PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Loteria Nacional Tarde (gana mas)",
+        "numeros": [
+            "00",
+            "02",
+            "76"
+        ],
+        "fecha": "14 julio",
+        "hora": "2:30PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "New York Tarde",
+        "numeros": [
+            "12",
+            "85",
+            "82"
+        ],
+        "fecha": "14 julio",
+        "hora": "2:25PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Tarde 2PM",
+        "numeros": [
+            "13",
+            "71",
+            "75"
+        ],
+        "fecha": "14 julio",
+        "hora": "1:55PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Loteria Florida Tarde",
+        "numeros": [
+            "30",
+            "32",
+            "91"
+        ],
+        "fecha": "14 julio",
+        "hora": "1:25PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Loteria Real Tarde",
+        "numeros": [
+            "96",
+            "73",
+            "58"
+        ],
+        "fecha": "14 julio",
+        "hora": "12:55PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Tarde 1:00PM",
+        "numeros": [
+            "80",
+            "84",
+            "54"
+        ],
+        "fecha": "14 julio",
+        "hora": "12:55PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "King lottery Medio Dia",
+        "numeros": [
+            "38",
+            "92",
+            "42"
+        ],
+        "fecha": "14 julio",
+        "hora": "12:25PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "La Suerte Medio Dia",
+        "numeros": [
+            "24",
+            "24",
+            "07"
+        ],
+        "fecha": "14 julio",
+        "hora": "12:25PM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "La Primera Tarde",
+        "numeros": [
+            "39",
+            "19",
+            "39"
+        ],
+        "fecha": "14 julio",
+        "hora": "11:55AM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Lotedom",
+        "numeros": [
+            "20",
+            "05",
+            "85"
+        ],
+        "fecha": "14 julio",
+        "hora": "11:55AM",
+        "hora_scrapeo": "2025-07-15 10:24:48"
+    }
+]
