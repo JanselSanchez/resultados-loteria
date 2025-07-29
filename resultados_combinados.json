@@ -1,6 +1,28 @@
 [
     {
         "fuente": "loteriasdominicanas.com",
+        "loteria": "La Suerte 12:30",
+        "numeros": [
+            "42",
+            "31",
+            "39"
+        ],
+        "fecha": "29-07-2025 12:34",
+        "hora_scrapeo": "2025-07-29 12:48:18"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "King Lottery 12:30",
+        "numeros": [
+            "25",
+            "31",
+            "59"
+        ],
+        "fecha": "29-07-2025 12:33",
+        "hora_scrapeo": "2025-07-29 12:48:18"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
         "loteria": "La Primera Día",
         "numeros": [
             "46",
@@ -8,7 +30,7 @@
             "38"
         ],
         "fecha": "29-07-2025 12:03",
-        "hora_scrapeo": "2025-07-29 12:07:55"
+        "hora_scrapeo": "2025-07-29 12:48:18"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -17,7 +39,7 @@
             "60"
         ],
         "fecha": "29-07-2025 12:02",
-        "hora_scrapeo": "2025-07-29 12:07:55"
+        "hora_scrapeo": "2025-07-29 12:48:18"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -29,7 +51,7 @@
             "52"
         ],
         "fecha": "29-07-2025 12:02",
-        "hora_scrapeo": "2025-07-29 12:07:55"
+        "hora_scrapeo": "2025-07-29 12:48:18"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -39,7 +61,7 @@
             "52"
         ],
         "fecha": "29-07-2025 12:02",
-        "hora_scrapeo": "2025-07-29 12:07:55"
+        "hora_scrapeo": "2025-07-29 12:48:18"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -48,7 +70,7 @@
             "52"
         ],
         "fecha": "29-07-2025 12:01",
-        "hora_scrapeo": "2025-07-29 12:07:55"
+        "hora_scrapeo": "2025-07-29 12:48:18"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -59,7 +81,7 @@
             "05"
         ],
         "fecha": "29-07-2025 12:01",
-        "hora_scrapeo": "2025-07-29 12:07:55"
+        "hora_scrapeo": "2025-07-29 12:48:18"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -70,7 +92,31 @@
             "31"
         ],
         "fecha": "29-07-2025 10:01",
-        "hora_scrapeo": "2025-07-29 12:07:55"
+        "hora_scrapeo": "2025-07-29 12:48:18"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "La Suerte Medio Dia",
+        "numeros": [
+            "42",
+            "31",
+            "39"
+        ],
+        "fecha": "29 julio",
+        "hora": "12:25PM",
+        "hora_scrapeo": "2025-07-29 12:48:27"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "King lottery Medio Dia",
+        "numeros": [
+            "25",
+            "31",
+            "59"
+        ],
+        "fecha": "29 julio",
+        "hora": "12:25PM",
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -82,7 +128,7 @@
         ],
         "fecha": "29 julio",
         "hora": "11:55AM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -94,7 +140,7 @@
         ],
         "fecha": "29 julio",
         "hora": "11:55AM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -106,7 +152,7 @@
         ],
         "fecha": "29 julio",
         "hora": "11:55AM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -118,7 +164,7 @@
         ],
         "fecha": "29 julio",
         "hora": "10:55AM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -130,7 +176,7 @@
         ],
         "fecha": "29 julio",
         "hora": "9:55AM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -142,7 +188,7 @@
         ],
         "fecha": "29 julio",
         "hora": "8:55AM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -154,7 +200,7 @@
         ],
         "fecha": "29 julio",
         "hora": "7:50AM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -166,7 +212,7 @@
         ],
         "fecha": "28 julio",
         "hora": "10:25PM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -178,7 +224,7 @@
         ],
         "fecha": "28 julio",
         "hora": "9:50PM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -190,7 +236,7 @@
         ],
         "fecha": "28 julio",
         "hora": "9:40PM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -202,7 +248,7 @@
         ],
         "fecha": "28 julio",
         "hora": "8:52PM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -214,7 +260,7 @@
         ],
         "fecha": "28 julio",
         "hora": "8:55PM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -226,7 +272,7 @@
         ],
         "fecha": "28 julio",
         "hora": "8:53PM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -238,7 +284,7 @@
         ],
         "fecha": "28 julio",
         "hora": "7:55PM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -250,7 +296,7 @@
         ],
         "fecha": "28 julio",
         "hora": "7:55PM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -262,7 +308,7 @@
         ],
         "fecha": "28 julio",
         "hora": "7:55PM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -274,7 +320,7 @@
         ],
         "fecha": "28 julio",
         "hora": "7:25PM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -286,7 +332,7 @@
         ],
         "fecha": "28 julio",
         "hora": "6:55PM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -298,7 +344,7 @@
         ],
         "fecha": "28 julio",
         "hora": "5:55PM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -310,7 +356,7 @@
         ],
         "fecha": "28 julio",
         "hora": "5:55PM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -322,7 +368,7 @@
         ],
         "fecha": "28 julio",
         "hora": "4:55PM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -334,7 +380,7 @@
         ],
         "fecha": "28 julio",
         "hora": "3:55PM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -346,7 +392,7 @@
         ],
         "fecha": "28 julio",
         "hora": "2:55PM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -358,7 +404,7 @@
         ],
         "fecha": "28 julio",
         "hora": "2:30PM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -370,7 +416,7 @@
         ],
         "fecha": "28 julio",
         "hora": "2:25PM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -382,7 +428,7 @@
         ],
         "fecha": "28 julio",
         "hora": "1:55PM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -394,30 +440,6 @@
         ],
         "fecha": "28 julio",
         "hora": "1:25PM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
-    },
-    {
-        "fuente": "tusnumerosrd.com",
-        "loteria": "Loteria Real Tarde",
-        "numeros": [
-            "70",
-            "61",
-            "56"
-        ],
-        "fecha": "28 julio",
-        "hora": "12:55PM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
-    },
-    {
-        "fuente": "tusnumerosrd.com",
-        "loteria": "Anguila Tarde 1:00PM",
-        "numeros": [
-            "13",
-            "55",
-            "97"
-        ],
-        "fecha": "28 julio",
-        "hora": "12:55PM",
-        "hora_scrapeo": "2025-07-29 12:08:04"
+        "hora_scrapeo": "2025-07-29 12:48:27"
     }
 ]
