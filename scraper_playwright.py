@@ -20,6 +20,13 @@ def scrapear_loterias_dominicanas():
                 nombre_tag = juego.select_one(".game-title span")
                 numeros_tag = juego.find_next("div", class_="game-scores")
 
+                # EXTRAER IMAGEN
+                img_tag = juego.select_one("img")
+                img_url = img_tag["src"] if img_tag and "src" in img_tag.attrs else ""
+                # Si la url es relativa, complétala
+                if img_url and img_url.startswith('/'):
+                    img_url = "https://loteriasdominicanas.com" + img_url
+
                 if not (fecha_tag and nombre_tag and numeros_tag):
                     continue
 
@@ -30,6 +37,7 @@ def scrapear_loterias_dominicanas():
                 resultados.append({
                     'fuente': 'loteriasdominicanas.com',
                     'loteria': nombre,
+                    'img': img_url,
                     'numeros': numeros,
                     'fecha': fecha,
                     'hora_scrapeo': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -54,7 +62,17 @@ def scrapear_tusnumerosrd():
 
             for fila in filas:
                 try:
-                    nombre = fila.select_one("h6.mb-0").get_text(strip=True)
+                    nombre_tag = fila.select_one("h6.mb-0")
+                    if not nombre_tag:
+                        continue
+                    nombre = nombre_tag.get_text(strip=True)
+
+                    # Buscar la URL de la imagen (icono de la lotería)
+                    img_tag = fila.select_one("img")
+                    img_url = img_tag["src"] if img_tag and "src" in img_tag.attrs else ""
+                    if img_url and img_url.startswith('/'):
+                        img_url = "https://www.tusnumerosrd.com" + img_url
+
                     numeros = [n.get_text(strip=True) for n in fila.select("div.badge.badge-primary.badge-dot")]
                     fecha = fila.select("span.table-inner-text")
                     fecha_texto = fecha[-1].get_text(strip=True) if fecha else "Fecha no encontrada"
@@ -65,12 +83,14 @@ def scrapear_tusnumerosrd():
                         resultados.append({
                             'fuente': 'tusnumerosrd.com',
                             'loteria': nombre,
+                            'img': img_url,
                             'numeros': numeros,
                             'fecha': fecha_texto,
                             'hora': hora,
                             'hora_scrapeo': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                         })
-                except:
+                except Exception as e:
+                    print(f"Error fila tusnumerosrd: {e}")
                     continue
 
             browser.close()
