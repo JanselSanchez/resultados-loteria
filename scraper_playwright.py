@@ -20,12 +20,13 @@ def scrapear_loterias_dominicanas():
                 nombre_tag = juego.select_one(".game-title span")
                 numeros_tag = juego.find_next("div", class_="game-scores")
 
-                # EXTRAER IMAGEN
-                img_tag = juego.select_one("img")
-                img_url = img_tag["src"] if img_tag and "src" in img_tag.attrs else ""
-                # Si la url es relativa, complétala
-                if img_url and img_url.startswith('/'):
-                    img_url = "https://loteriasdominicanas.com" + img_url
+                # Mejorado: busca img en todo el bloque y soporta data-src
+                img_tag = juego.find("img")
+                img_url = ""
+                if img_tag:
+                    img_url = img_tag.get("src", "") or img_tag.get("data-src", "")
+                    if img_url and img_url.startswith('/'):
+                        img_url = "https://loteriasdominicanas.com" + img_url
 
                 if not (fecha_tag and nombre_tag and numeros_tag):
                     continue
@@ -67,7 +68,6 @@ def scrapear_tusnumerosrd():
                         continue
                     nombre = nombre_tag.get_text(strip=True)
 
-                    # Buscar la URL de la imagen (icono de la lotería)
                     img_tag = fila.select_one("img")
                     img_url = img_tag["src"] if img_tag and "src" in img_tag.attrs else ""
                     if img_url and img_url.startswith('/'):
