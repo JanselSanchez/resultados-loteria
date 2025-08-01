@@ -1,6 +1,123 @@
 [
     {
         "fuente": "loteriasdominicanas.com",
+        "loteria": "Cash 4 Life",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/97e599e075ad3e4d8f66ab7a06363b0d.png",
+        "numeros": [
+            "35",
+            "38",
+            "44",
+            "07",
+            "02",
+            "04"
+        ],
+        "fecha": "31-07-2025 21:11",
+        "hora_scrapeo": "2025-07-31 21:36:50"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Lotería Nacional",
+        "img": "https://loteriasdominicanas.com/images/ex_stats.png?v1",
+        "numeros": [
+            "39",
+            "86",
+            "20"
+        ],
+        "fecha": "31-07-2025 21:05",
+        "hora_scrapeo": "2025-07-31 21:36:50"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Super Palé",
+        "img": "https://cdn-lottery.kiskoo.com/fca169dc240019accb636a593b64bbe4.png",
+        "numeros": [
+            "07",
+            "39"
+        ],
+        "fecha": "31-07-2025 21:03",
+        "hora_scrapeo": "2025-07-31 21:36:50"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Anguila Noche",
+        "img": "https://loteriasdominicanas.com/images/ex_stats.png?v1",
+        "numeros": [
+            "89",
+            "24",
+            "71"
+        ],
+        "fecha": "31-07-2025 21:01",
+        "hora_scrapeo": "2025-07-31 21:36:50"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Quiniela Leidsa",
+        "img": "https://loteriasdominicanas.com/images/ex_stats.png?v1",
+        "numeros": [
+            "07",
+            "87",
+            "95"
+        ],
+        "fecha": "31-07-2025 20:59",
+        "hora_scrapeo": "2025-07-31 21:36:50"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Super Kino TV",
+        "img": "https://loteriasdominicanas.com/images/ex_stats.png?v1",
+        "numeros": [
+            "03",
+            "05",
+            "10",
+            "22",
+            "27",
+            "32",
+            "41",
+            "47",
+            "49",
+            "53",
+            "56",
+            "57",
+            "64",
+            "65",
+            "66",
+            "67",
+            "70",
+            "73",
+            "79",
+            "80"
+        ],
+        "fecha": "31-07-2025 20:59",
+        "hora_scrapeo": "2025-07-31 21:36:50"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Loto Pool",
+        "img": "https://loteriasdominicanas.com/images/ex_stats.png?v1",
+        "numeros": [
+            "01",
+            "06",
+            "07",
+            "18",
+            "29"
+        ],
+        "fecha": "31-07-2025 20:58",
+        "hora_scrapeo": "2025-07-31 21:36:50"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Pega 3 Más",
+        "img": "https://loteriasdominicanas.com/images/ex_stats.png?v1",
+        "numeros": [
+            "31",
+            "45",
+            "30"
+        ],
+        "fecha": "31-07-2025 20:57",
+        "hora_scrapeo": "2025-07-31 21:36:50"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
         "loteria": "Primera Noche",
         "img": "https://loteriasdominicanas.com/images/ex_stats.png?v1",
         "numeros": [
@@ -9,7 +126,7 @@
             "76"
         ],
         "fecha": "31-07-2025 20:04",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -19,7 +136,7 @@
             "96"
         ],
         "fecha": "31-07-2025 20:03",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -34,7 +151,7 @@
             "04"
         ],
         "fecha": "31-07-2025 20:03",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -46,7 +163,7 @@
             "01"
         ],
         "fecha": "31-07-2025 20:01",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -56,7 +173,7 @@
             "05"
         ],
         "fecha": "31-07-2025 20:00",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -70,7 +187,7 @@
             "75"
         ],
         "fecha": "31-07-2025 20:00",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -82,7 +199,7 @@
             "2"
         ],
         "fecha": "31-07-2025 19:59",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -99,7 +216,7 @@
             "10"
         ],
         "fecha": "31-07-2025 19:58",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -111,7 +228,7 @@
             "08"
         ],
         "fecha": "31-07-2025 19:33",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -123,7 +240,7 @@
             "95"
         ],
         "fecha": "31-07-2025 18:04",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -135,7 +252,7 @@
             "79"
         ],
         "fecha": "31-07-2025 18:01",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -147,7 +264,7 @@
             "60"
         ],
         "fecha": "31-07-2025 14:46",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -161,7 +278,7 @@
             "06"
         ],
         "fecha": "31-07-2025 14:41",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -175,7 +292,7 @@
             "35"
         ],
         "fecha": "31-07-2025 14:31",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -187,7 +304,7 @@
             "72"
         ],
         "fecha": "31-07-2025 14:31",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -199,7 +316,7 @@
             "14"
         ],
         "fecha": "31-07-2025 13:37",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -211,7 +328,7 @@
             "06"
         ],
         "fecha": "31-07-2025 13:03",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -224,7 +341,7 @@
             "Amarillo"
         ],
         "fecha": "31-07-2025 13:03",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -237,7 +354,7 @@
             "49"
         ],
         "fecha": "31-07-2025 13:00",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -249,7 +366,7 @@
             "37"
         ],
         "fecha": "31-07-2025 13:00",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -262,7 +379,7 @@
             "8"
         ],
         "fecha": "31-07-2025 12:58",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -272,7 +389,7 @@
             "19"
         ],
         "fecha": "31-07-2025 12:58",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -284,7 +401,7 @@
             "11"
         ],
         "fecha": "31-07-2025 12:34",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -296,7 +413,7 @@
             "20"
         ],
         "fecha": "31-07-2025 12:33",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -308,7 +425,7 @@
             "75"
         ],
         "fecha": "31-07-2025 12:03",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -318,7 +435,7 @@
             "46"
         ],
         "fecha": "31-07-2025 12:02",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -331,7 +448,7 @@
             "56"
         ],
         "fecha": "31-07-2025 12:02",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -342,7 +459,7 @@
             "56"
         ],
         "fecha": "31-07-2025 12:01",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -352,7 +469,7 @@
             "56"
         ],
         "fecha": "31-07-2025 12:01",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -364,7 +481,7 @@
             "06"
         ],
         "fecha": "31-07-2025 12:01",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
     },
     {
         "fuente": "loteriasdominicanas.com",
@@ -376,7 +493,46 @@
             "59"
         ],
         "fecha": "31-07-2025 10:00",
-        "hora_scrapeo": "2025-07-31 20:56:27"
+        "hora_scrapeo": "2025-07-31 21:36:50"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Loteria Nacional Noche",
+        "img": "https://www.tusnumerosrd.com/images/loterias/nacional.svg",
+        "numeros": [
+            "39",
+            "86",
+            "20"
+        ],
+        "fecha": "31 julio",
+        "hora": "8:52PM",
+        "hora_scrapeo": "2025-07-31 21:37:00"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Noche 9:00PM",
+        "img": "https://www.tusnumerosrd.com/images/loterias/anguila.svg",
+        "numeros": [
+            "89",
+            "24",
+            "71"
+        ],
+        "fecha": "31 julio",
+        "hora": "8:55PM",
+        "hora_scrapeo": "2025-07-31 21:37:00"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Leidsa Noche",
+        "img": "https://www.tusnumerosrd.com/images/loterias/leidsa.svg",
+        "numeros": [
+            "07",
+            "87",
+            "95"
+        ],
+        "fecha": "31 julio",
+        "hora": "8:53PM",
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -389,7 +545,7 @@
         ],
         "fecha": "31 julio",
         "hora": "7:55PM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -402,7 +558,7 @@
         ],
         "fecha": "31 julio",
         "hora": "7:55PM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -415,7 +571,7 @@
         ],
         "fecha": "31 julio",
         "hora": "7:55PM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -428,7 +584,7 @@
         ],
         "fecha": "31 julio",
         "hora": "7:25PM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -441,7 +597,7 @@
         ],
         "fecha": "31 julio",
         "hora": "6:55PM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -454,7 +610,7 @@
         ],
         "fecha": "31 julio",
         "hora": "5:55PM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -467,7 +623,7 @@
         ],
         "fecha": "31 julio",
         "hora": "5:55PM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -480,7 +636,7 @@
         ],
         "fecha": "31 julio",
         "hora": "4:55PM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -493,7 +649,7 @@
         ],
         "fecha": "31 julio",
         "hora": "3:55PM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -506,7 +662,7 @@
         ],
         "fecha": "31 julio",
         "hora": "2:55PM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -519,7 +675,7 @@
         ],
         "fecha": "31 julio",
         "hora": "2:30PM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -532,7 +688,7 @@
         ],
         "fecha": "31 julio",
         "hora": "2:25PM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -545,7 +701,7 @@
         ],
         "fecha": "31 julio",
         "hora": "1:55PM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -558,7 +714,7 @@
         ],
         "fecha": "31 julio",
         "hora": "1:25PM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -571,7 +727,7 @@
         ],
         "fecha": "31 julio",
         "hora": "12:55PM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -584,7 +740,7 @@
         ],
         "fecha": "31 julio",
         "hora": "12:55PM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -597,7 +753,7 @@
         ],
         "fecha": "31 julio",
         "hora": "12:25PM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -610,7 +766,7 @@
         ],
         "fecha": "31 julio",
         "hora": "12:25PM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -623,7 +779,7 @@
         ],
         "fecha": "31 julio",
         "hora": "11:55AM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -636,7 +792,7 @@
         ],
         "fecha": "31 julio",
         "hora": "11:55AM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -649,7 +805,7 @@
         ],
         "fecha": "31 julio",
         "hora": "11:55AM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -662,7 +818,7 @@
         ],
         "fecha": "31 julio",
         "hora": "10:55AM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -675,7 +831,7 @@
         ],
         "fecha": "31 julio",
         "hora": "9:55AM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -688,7 +844,7 @@
         ],
         "fecha": "31 julio",
         "hora": "8:55AM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -701,7 +857,7 @@
         ],
         "fecha": "31 julio",
         "hora": "7:50AM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     },
     {
         "fuente": "tusnumerosrd.com",
@@ -714,45 +870,6 @@
         ],
         "fecha": "30 julio",
         "hora": "10:25PM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
-    },
-    {
-        "fuente": "tusnumerosrd.com",
-        "loteria": "Anguila Noche 10PM",
-        "img": "https://www.tusnumerosrd.com/images/loterias/anguila.svg",
-        "numeros": [
-            "11",
-            "97",
-            "19"
-        ],
-        "fecha": "30 julio",
-        "hora": "9:50PM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
-    },
-    {
-        "fuente": "tusnumerosrd.com",
-        "loteria": "Loteria Florida Noche",
-        "img": "https://www.tusnumerosrd.com/images/loterias/florida.svg",
-        "numeros": [
-            "88",
-            "62",
-            "82"
-        ],
-        "fecha": "30 julio",
-        "hora": "9:40PM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
-    },
-    {
-        "fuente": "tusnumerosrd.com",
-        "loteria": "Leidsa Noche",
-        "img": "https://www.tusnumerosrd.com/images/loterias/leidsa.svg",
-        "numeros": [
-            "79",
-            "97",
-            "56"
-        ],
-        "fecha": "30 julio",
-        "hora": "8:53PM",
-        "hora_scrapeo": "2025-07-31 20:56:36"
+        "hora_scrapeo": "2025-07-31 21:37:00"
     }
 ]
