@@ -2394,5 +2394,32 @@
         "fecha": "2025-08-04",
         "hora": "6:55PM",
         "hora_scrapeo": "2025-08-04 19:04:59"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "King Lottery 7:30",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/quiniela-king-lottery-noche.png",
+        "numeros": [
+            "62",
+            "11",
+            "28"
+        ],
+        "fecha_original": "04-08-2025 19:32",
+        "fecha": "2025-08-04",
+        "hora_scrapeo": "2025-08-04 19:45:05"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "King lottery Noche",
+        "img": "https://www.tusnumerosrd.com/images/loterias/king.svg",
+        "numeros": [
+            "62",
+            "11",
+            "28"
+        ],
+        "fecha_original": "04 agosto",
+        "fecha": "2025-08-04",
+        "hora": "7:25PM",
+        "hora_scrapeo": "2025-08-04 19:45:17"
     }
 ]
