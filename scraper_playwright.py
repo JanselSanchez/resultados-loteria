@@ -8,57 +8,53 @@ def scrapear_loterias_dominicanas():
     resultados = []
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=False)  # Cambia a True si ya todo funciona
+            browser = p.chromium.launch(headless=False)  # Cambia a True en producción
             page = browser.new_page()
             page.goto("https://loteriasdominicanas.com/pagina/ultimos-resultados", timeout=60000)
             page.wait_for_selector("div.game-info.p-2", timeout=20000)
-            
-            # Guarda el HTML para debug si hay errores visuales
+            html = page.content()
             with open("debug_loterias.html", "w", encoding="utf-8") as f:
-                f.write(page.content())
-            
-            soup = BeautifulSoup(page.content(), 'html.parser')
+                f.write(html)
+            soup = BeautifulSoup(html, 'html.parser')
             juegos = soup.select("div.game-info.p-2")
-
             for juego in juegos:
-                fecha_tag = juego.select_one(".session-date")
-                nombre_tag = juego.select_one(".game-title span")
-                numeros_tag = juego.find_next("div", class_="game-scores")
+                try:
+                    fecha_tag = juego.select_one(".session-date")
+                    nombre_tag = juego.select_one(".game-title span")
+                    # Busca el bloque de números: SIEMPRE es el siguiente sibling div con clase "game-scores"
+                    numeros_tag = juego.find_next_sibling("div", class_="game-scores")
+                    # Logo
+                    logo_div = juego.select_one("div.game-logo")
+                    img_url = ""
+                    if logo_div:
+                        img_tag = logo_div.find("img")
+                        if img_tag:
+                            img_url = img_tag.get("src", "") or img_tag.get("data-src", "")
+                    if img_url.startswith("/"):
+                        img_url = "https://loteriasdominicanas.com" + img_url
 
-                # SOLO el logo real de la lotería
-                logo_div = juego.select_one("div.game-logo")
-                img_url = ""
-                if logo_div:
-                    img_tag = logo_div.find("img")
-                    if img_tag:
-                        img_url = img_tag.get("src", "") or img_tag.get("data-src", "")
-                else:
-                    # Fallback para imágenes reales pero ignora estadísticas
-                    for img_tag in juego.find_all("img"):
-                        img_src = img_tag.get("src", "") or img_tag.get("data-src", "")
-                        if "ex_stats" not in img_src and img_src.strip() != "":
-                            img_url = img_src
-                            break
+                    # Debugging
+                    fecha = fecha_tag.get_text(strip=True) if fecha_tag else "NO FECHA"
+                    nombre = nombre_tag.get_text(strip=True) if nombre_tag else "NO NOMBRE"
+                    print(f"[LoteriasDom] Fecha: {fecha} | Lotería: {nombre}")
 
-                if img_url.startswith("/"):
-                    img_url = "https://loteriasdominicanas.com" + img_url
+                    if not (fecha_tag and nombre_tag and numeros_tag):
+                        print("[LoteriasDom] ⛔ Falta algún dato, se omite este resultado.")
+                        continue
 
-                if not (fecha_tag and nombre_tag and numeros_tag):
+                    numeros = [n.get_text(strip=True) for n in numeros_tag.select("span.score")]
+
+                    resultados.append({
+                        'fuente': 'loteriasdominicanas.com',
+                        'loteria': nombre,
+                        'img': img_url,
+                        'numeros': numeros,
+                        'fecha': fecha,
+                        'hora_scrapeo': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                    })
+                except Exception as e:
+                    print(f"[LoteriasDom] Error juego: {e}")
                     continue
-
-                fecha = fecha_tag.get_text(strip=True)
-                nombre = nombre_tag.get_text(strip=True)
-                numeros = [n.get_text(strip=True) for n in numeros_tag.select("span.score")]
-
-                resultados.append({
-                    'fuente': 'loteriasdominicanas.com',
-                    'loteria': nombre,
-                    'img': img_url,
-                    'numeros': numeros,
-                    'fecha': fecha,
-                    'hora_scrapeo': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-                })
-
             browser.close()
     except Exception as e:
         print(f"❌ Error al scrapear loteriasdominicanas.com: {e}")
@@ -68,17 +64,15 @@ def scrapear_tusnumerosrd():
     resultados = []
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=False)
+            browser = p.chromium.launch(headless=False)  # Cambia a True en producción
             page = browser.new_page()
             page.goto("https://www.tusnumerosrd.com/resultados.php", timeout=60000)
-            page.wait_for_timeout(7000)
-
+            page.wait_for_timeout(9000)
+            html = page.content()
             with open("debug_tusnumerosrd.html", "w", encoding="utf-8") as f:
-                f.write(page.content())
-
-            soup = BeautifulSoup(page.content(), 'html.parser')
+                f.write(html)
+            soup = BeautifulSoup(html, 'html.parser')
             filas = soup.select("tr")
-
             for fila in filas:
                 try:
                     nombre_tag = fila.select_one("h6.mb-0")
@@ -92,10 +86,17 @@ def scrapear_tusnumerosrd():
                         img_url = "https://www.tusnumerosrd.com" + img_url
 
                     numeros = [n.get_text(strip=True) for n in fila.select("div.badge.badge-primary.badge-dot")]
-                    fecha = fila.select("span.table-inner-text")
-                    fecha_texto = fecha[-1].get_text(strip=True) if fecha else "Fecha no encontrada"
-                    hora_tag = fila.select("td.text-center")
-                    hora = hora_tag[-1].get_text(strip=True) if hora_tag else "Hora no encontrada"
+
+                    # Toma la PRIMERA table-inner-text como fecha (más fiable que el -1)
+                    fecha_tag = fila.select_one("span.table-inner-text")
+                    fecha_texto = fecha_tag.get_text(strip=True) if fecha_tag else "Fecha no encontrada"
+
+                    # Hora: busca el ÚLTIMO td.text-center (usualmente la hora)
+                    celdas = fila.find_all("td", class_="text-center")
+                    hora = celdas[-1].get_text(strip=True) if celdas else "Hora no encontrada"
+
+                    # Debugging
+                    print(f"[TusNumerosRD] Fecha: {fecha_texto} | Lotería: {nombre} | Números: {numeros}")
 
                     if nombre and numeros:
                         resultados.append({
@@ -108,9 +109,8 @@ def scrapear_tusnumerosrd():
                             'hora_scrapeo': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                         })
                 except Exception as e:
-                    print(f"Error fila tusnumerosrd: {e}")
+                    print(f"[TusNumerosRD] Error fila: {e}")
                     continue
-
             browser.close()
     except Exception as e:
         print(f"❌ Error al scrapear tusnumerosrd.com: {e}")
@@ -151,9 +151,11 @@ def main():
         historico = cargar_historico()
         # Unimos evitando duplicados por loteria, numeros y fecha
         resultados_actualizados = evitar_duplicados(historico, nuevos_resultados)
+        nuevos_agregados = len(resultados_actualizados) - len(historico)
         with open("resultados_combinados.json", "w", encoding="utf-8") as f:
             json.dump(resultados_actualizados, f, indent=4, ensure_ascii=False)
         print(f"📦 Se guardaron {len(resultados_actualizados)} resultados en 'resultados_combinados.json'")
+        print(f"➕ Nuevos resultados agregados: {nuevos_agregados}")
     else:
         print("⚠️ No se pudo extraer ningún resultado de ninguna fuente.")
 
