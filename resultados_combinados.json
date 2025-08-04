@@ -1998,5 +1998,111 @@
         "fecha": "2025-08-04",
         "hora": "11:55AM",
         "hora_scrapeo": "2025-08-04 12:22:03"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Anguila Medio Día",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/anguila-medio-dia-1pm.png",
+        "numeros": [
+            "25",
+            "59",
+            "87"
+        ],
+        "fecha_original": "04-08-2025 13:00",
+        "fecha": "2025-08-04",
+        "hora_scrapeo": "2025-08-04 13:02:07"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Loto Pool",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/loto pool real.png",
+        "numeros": [
+            "85",
+            "27",
+            "26",
+            "73"
+        ],
+        "fecha_original": "04-08-2025 12:59",
+        "fecha": "2025-08-04",
+        "hora_scrapeo": "2025-08-04 13:02:07"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Pega 4 Real",
+        "img": "https://cdn-lottery.kiskoo.com/8a3caa57152f16610c4582a57ebaf80c.png",
+        "numeros": [
+            "5",
+            "7",
+            "8",
+            "6"
+        ],
+        "fecha_original": "04-08-2025 12:58",
+        "fecha": "2025-08-04",
+        "hora_scrapeo": "2025-08-04 13:02:07"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Tu Fecha Real",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/tu fecha real.png",
+        "numeros": [
+            "22"
+        ],
+        "fecha_original": "04-08-2025 12:57",
+        "fecha": "2025-08-04",
+        "hora_scrapeo": "2025-08-04 13:02:07"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "La Suerte 12:30",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/la-suerte-dia.png",
+        "numeros": [
+            "20",
+            "97",
+            "17"
+        ],
+        "fecha_original": "04-08-2025 12:34",
+        "fecha": "2025-08-04",
+        "hora_scrapeo": "2025-08-04 13:02:07"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "King Lottery 12:30",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/quiniela-king-lottery-dia.png",
+        "numeros": [
+            "76",
+            "75",
+            "10"
+        ],
+        "fecha_original": "04-08-2025 12:33",
+        "fecha": "2025-08-04",
+        "hora_scrapeo": "2025-08-04 13:02:07"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "La Suerte Medio Dia",
+        "img": "https://www.tusnumerosrd.com/images/loterias/lasuerte.svg",
+        "numeros": [
+            "20",
+            "97",
+            "17"
+        ],
+        "fecha_original": "04 agosto",
+        "fecha": "2025-08-04",
+        "hora": "12:25PM",
+        "hora_scrapeo": "2025-08-04 13:02:19"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "King lottery Medio Dia",
+        "img": "https://www.tusnumerosrd.com/images/loterias/king.svg",
+        "numeros": [
+            "76",
+            "75",
+            "10"
+        ],
+        "fecha_original": "04 agosto",
+        "fecha": "2025-08-04",
+        "hora": "12:25PM",
+        "hora_scrapeo": "2025-08-04 13:02:19"
     }
 ]
