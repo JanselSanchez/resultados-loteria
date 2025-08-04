@@ -3,6 +3,27 @@ from bs4 import BeautifulSoup
 import json
 from datetime import datetime
 import os
+import re
+
+MESES = {
+    'enero': '01', 'febrero': '02', 'marzo': '03', 'abril': '04', 'mayo': '05', 'junio': '06',
+    'julio': '07', 'agosto': '08', 'septiembre': '09', 'octubre': '10', 'noviembre': '11', 'diciembre': '12'
+}
+
+def normaliza_fecha(fecha):
+    # "04-08-2025 21:53" o "04-08-2025"
+    match = re.match(r"(\d{2})-(\d{2})-(\d{4})", fecha)
+    if match:
+        return f"{match.group(3)}-{match.group(2)}-{match.group(1)}"
+    # "04 agosto"
+    match = re.match(r"(\d{2})\s+([a-zA-Z]+)", fecha)
+    if match:
+        hoy = datetime.now()
+        dia = match.group(1)
+        mes = MESES.get(match.group(2).lower(), "01")
+        return f"{hoy.year}-{mes}-{dia}"
+    # Si ya viene normalizada, regresa igual
+    return fecha
 
 def scrapear_loterias_dominicanas():
     resultados = []
@@ -21,9 +42,7 @@ def scrapear_loterias_dominicanas():
                 try:
                     fecha_tag = juego.select_one(".session-date")
                     nombre_tag = juego.select_one(".game-title span")
-                    # Busca el bloque de números: SIEMPRE es el siguiente sibling div con clase "game-scores"
                     numeros_tag = juego.find_next_sibling("div", class_="game-scores")
-                    # Logo
                     logo_div = juego.select_one("div.game-logo")
                     img_url = ""
                     if logo_div:
@@ -32,24 +51,21 @@ def scrapear_loterias_dominicanas():
                             img_url = img_tag.get("src", "") or img_tag.get("data-src", "")
                     if img_url.startswith("/"):
                         img_url = "https://loteriasdominicanas.com" + img_url
-
-                    # Debugging
-                    fecha = fecha_tag.get_text(strip=True) if fecha_tag else "NO FECHA"
-                    nombre = nombre_tag.get_text(strip=True) if nombre_tag else "NO NOMBRE"
-                    print(f"[LoteriasDom] Fecha: {fecha} | Lotería: {nombre}")
-
                     if not (fecha_tag and nombre_tag and numeros_tag):
-                        print("[LoteriasDom] ⛔ Falta algún dato, se omite este resultado.")
+                        print("[LoteriasDom] ⛔ Falta dato, se omite.")
                         continue
-
+                    fecha = fecha_tag.get_text(strip=True)
+                    fecha_normalizada = normaliza_fecha(fecha)
+                    nombre = nombre_tag.get_text(strip=True)
                     numeros = [n.get_text(strip=True) for n in numeros_tag.select("span.score")]
-
+                    print(f"[LoteriasDom] Fecha: {fecha_normalizada} | Lotería: {nombre} | Números: {numeros}")
                     resultados.append({
                         'fuente': 'loteriasdominicanas.com',
                         'loteria': nombre,
                         'img': img_url,
                         'numeros': numeros,
-                        'fecha': fecha,
+                        'fecha_original': fecha,
+                        'fecha': fecha_normalizada,
                         'hora_scrapeo': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                     })
                 except Exception as e:
@@ -79,32 +95,25 @@ def scrapear_tusnumerosrd():
                     if not nombre_tag:
                         continue
                     nombre = nombre_tag.get_text(strip=True)
-
                     img_tag = fila.select_one("img")
                     img_url = img_tag["src"] if img_tag and "src" in img_tag.attrs else ""
                     if img_url and img_url.startswith('/'):
                         img_url = "https://www.tusnumerosrd.com" + img_url
-
                     numeros = [n.get_text(strip=True) for n in fila.select("div.badge.badge-primary.badge-dot")]
-
-                    # Toma la PRIMERA table-inner-text como fecha (más fiable que el -1)
                     fecha_tag = fila.select_one("span.table-inner-text")
-                    fecha_texto = fecha_tag.get_text(strip=True) if fecha_tag else "Fecha no encontrada"
-
-                    # Hora: busca el ÚLTIMO td.text-center (usualmente la hora)
+                    fecha = fecha_tag.get_text(strip=True) if fecha_tag else "Fecha no encontrada"
+                    fecha_normalizada = normaliza_fecha(fecha)
                     celdas = fila.find_all("td", class_="text-center")
                     hora = celdas[-1].get_text(strip=True) if celdas else "Hora no encontrada"
-
-                    # Debugging
-                    print(f"[TusNumerosRD] Fecha: {fecha_texto} | Lotería: {nombre} | Números: {numeros}")
-
+                    print(f"[TusNumerosRD] Fecha: {fecha_normalizada} | Lotería: {nombre} | Números: {numeros}")
                     if nombre and numeros:
                         resultados.append({
                             'fuente': 'tusnumerosrd.com',
                             'loteria': nombre,
                             'img': img_url,
                             'numeros': numeros,
-                            'fecha': fecha_texto,
+                            'fecha_original': fecha,
+                            'fecha': fecha_normalizada,
                             'hora': hora,
                             'hora_scrapeo': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                         })
@@ -149,7 +158,6 @@ def main():
 
     if nuevos_resultados:
         historico = cargar_historico()
-        # Unimos evitando duplicados por loteria, numeros y fecha
         resultados_actualizados = evitar_duplicados(historico, nuevos_resultados)
         nuevos_agregados = len(resultados_actualizados) - len(historico)
         with open("resultados_combinados.json", "w", encoding="utf-8") as f:
