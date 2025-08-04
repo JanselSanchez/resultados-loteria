@@ -1,0 +1,2005 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+    <title>TusNumerosRd - Multipurpose Bootstrap Dashboard Template </title>
+    <link rel="icon" type="image/x-icon" href="../src/assets/img/favicon.ico">
+    <link href="../layouts/vertical-dark-menu/css/light/loader.css" rel="stylesheet" type="text/css">
+    <link href="../layouts/vertical-dark-menu/css/dark/loader.css" rel="stylesheet" type="text/css">
+    <script src="../layouts/vertical-dark-menu/loader.js"></script>
+
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <link href="../src/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../layouts/vertical-dark-menu/css/light/plugins.css" rel="stylesheet" type="text/css">
+    <link href="../layouts/vertical-dark-menu/css/dark/plugins.css" rel="stylesheet" type="text/css">
+    <!-- END GLOBAL MANDATORY STYLES -->
+
+    <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM STYLES -->
+    <link href="../src/plugins/src/apex/apexcharts.css" rel="stylesheet" type="text/css">
+    <link href="../src/assets/css/light/dashboard/dash_1.css" rel="stylesheet" type="text/css">
+    <link href="../src/assets/css/dark/dashboard/dash_1.css" rel="stylesheet" type="text/css">
+    <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
+   
+    <!-- EXTRA CSS DESIGN -->
+    <link href="../src/assets/css/light/elements/infobox.css" rel="stylesheet" type="text/css">
+    <link href="../src/assets/css/dark/elements/infobox.css" rel="stylesheet" type="text/css">
+    <link href="../src/assets/css/dark/custom.css" rel="stylesheet" type="text/css">
+
+    
+
+<style>
+body.dark .badge--group .badge-dot {
+    /* width: 15px; */
+    /* height: 15px; */
+    /* border-radius: 50%; */
+    /* padding: 7px; */
+    width: 47px;
+    margin-right: 11px;
+    height: 45px;
+    font-size: 17px;
+    padding-top: 9px!important;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.badgg{
+    display: block!important;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 750px) {
+
+body.dark .table-striped:not(.dataTable) > tbody > tr:nth-of-type(odd) td {
+    --bs-table-accent-bg: transparent;
+    color: #fff;
+    background-color: rgba(27, 46, 75, 0.33);
+    font-size: 13px;
+    padding: 7px;
+}
+
+body.dark .table-bordered > tbody > tr td{
+    --bs-table-accent-bg: transparent;
+    color: #fff;
+    background-color: rgba(27, 46, 75, 0.33);
+    font-size: 13px;
+    padding: 7px;
+}
+
+body.dark .table-bordered thead tr th {
+    border: 1px solid #191e3a;
+    background: transparent;
+    padding: 4px;
+}
+
+
+body.dark .widget-content-area {
+    padding: 12px;
+}
+
+body.dark .badge--group .badge-dot {
+    /* width: 15px; */
+    /* height: 15px; */
+    /* border-radius: 50%; */
+    /* padding: 7px; */
+    width: 31px;
+    margin-right: 4px;
+    height: 31px;
+    font-size: 14px;
+    padding-top: 4px!important;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.cp{
+    display: none;
+}
+
+}
+</style></head>
+
+
+
+
+<body class="layout-boxed dark">
+    <!-- BEGIN LOADER -->
+    
+    <!--  END LOADER -->
+
+    <!--  BEGIN NAVBAR  -->
+    <div class="header-container container-xxl">
+        <header class="header navbar navbar-expand-sm">
+
+            <a href="javascript:void(0);" class="sidebarCollapse">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </a>
+
+            <!-- <div class="search-animated toggle-search">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <form class="form-inline search-full form-inline search" role="search">
+                    <div class="search-bar">
+                        <input type="text" class="form-control search-form-control  ml-lg-auto" placeholder="Search...">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x search-close"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </div>
+                </form>
+                <span class="badge badge-secondary">Ctrl + /</span>
+            </div> -->
+
+            <!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-HR5JGRJ0F4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HR5JGRJ0F4');
+</script>
+
+
+
+<ul class="navbar-item flex-row ms-lg-auto ms-0">
+
+   
+
+    <li class="botontop">
+    <a class="btn btn-secondary  mb-2 me-4" href="ingreso.php"><b>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>                <span class="btn-text-inner"> INGRESAR </span>
+    </b></a>
+<a class="btn btn-warning  mb-2 me-4" href="registro.php"><b>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>                <span class="btn-text-inner"> REGISTRARSE</span>
+</b></a>
+    </li>    
+
+
+      
+
+   
+
+    <li class="nav-item theme-toggle-item" style="display: none;">
+        <a href="javascript:void(0);" class="nav-link theme-toggle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon dark-mode"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun light-mode"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        </a>
+    </li>
+          
+
+
+</ul>
+
+<style>
+.page-meta{
+    margin-bottom: 18px;
+    margin-top: 30px;
+    margin-left: 2px;
+}
+
+body.dark .form-control {
+    color: #009688!important;
+}
+
+.noti {
+    margin-right: -36px;
+}
+
+body.dark .navbar .navbar-item .nav-item.dropdown.notification-dropdown .dropdown-menu .notification-scroll {
+    height: 251px;
+    position: relative;
+}
+
+@media only screen and (max-width: 750px) {
+.navbar-item .btn{
+    font-size: 11px!important;
+}
+}
+
+
+body.dark .p-0 {
+    padding: 0px!important;
+}
+
+body.dark .widget-content-area {
+    padding: 6px!important;
+}
+
+
+
+
+.button--loading .button__text {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.button--loading::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: 4px solid transparent;
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  animation: button-loading-spinner 1s ease infinite;
+}
+
+@keyframes button-loading-spinner {
+  from {
+    transform: rotate(0turn);
+  }
+
+  to {
+    transform: rotate(1turn);
+  }
+}
+</style>    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<script>  
+     $(document).on("click", '.eliminarnoti', function(event) { 
+var idpedido =  $(this).attr("id");
+var action = 'eliminarnoti';
+
+
+// alert(idpedido);
+$.ajax({
+  url:"action.php",
+  method:"POST",
+  data:{action:action, idpedido:idpedido},
+  success:function(data)
+  {
+  
+    location.reload(true)
+  
+  }
+ });
+});
+
+
+
+
+$(document).ready(function(){
+    // add_notification('.addto', {text: 'Jugada agregada, <b>Siga agregando!</b>', pos: 'top-center'})
+
+//obtener los puntos actuales y guardar en variable puntosfinal
+var puntosfinal = $.ajax({
+    url:"puntos.php",
+   method:"POST",
+   async: false,
+   success:function(puntosff)
+   {
+    return puntosff;
+}
+}).responseText;
+
+//poner puntos en el boton verde
+$('#puntos').html(Number(puntosfinal).toLocaleString()+ '<i class="fa fa-refresh" style="margin-left: 4px; margin-right: -9px; font-size: 12px;"></i>');
+
+$('#contaf').click(function() {
+
+// var botopuntoscontenido = $('#puntos').html();    
+    
+$('#puntos').html('<i class="fa fa-refresh fa-spin"></i>');
+
+setTimeout(function() { 
+    var puntosfinal = $.ajax({
+    url:"puntos.php",
+   method:"POST",
+   async: false,
+   success:function(puntosff)
+   {
+    return puntosff;
+}
+}).responseText;
+
+$('#puntos').html(Number(puntosfinal).toLocaleString()+ '<i class="fa fa-refresh" style="margin-left: 4px; margin-right: -9px; font-size: 12px;"></i>');
+
+    
+}, 2000);
+
+
+});
+
+});
+
+ 
+
+    </script>           </header>
+    </div>
+    <!--  END NAVBAR  -->
+
+     <!--  BEGIN MAIN CONTAINER  -->
+     <div class="main-container" id="container">
+
+<div class="overlay"></div>
+<div class="search-overlay"></div>
+
+<!--  BEGIN SIDEBAR  -->
+<div class="sidebar-wrapper sidebar-theme">
+
+<nav id="sidebar">
+
+        <div class="navbar-nav theme-brand flex-row  text-center">
+        <img src="https://www.tusnumerosrd.com/images/logotnrd.png" class="minilogo">
+            <div class="nav-item sidebar-toggle">
+                <div class="btn-toggle sidebarCollapse">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-left"><polyline points="11 17 6 12 11 7"></polyline><polyline points="18 17 13 12 18 7"></polyline></svg>
+                </div>
+            </div>
+        </div>
+        <div class="shadow-bottom"></div>
+        <ul class="list-unstyled menu-categories ps" id="accordionExample">
+            <li class="menu active">
+                <a href="index.php" aria-expanded="false" class="dropdown-toggle">
+                    <div class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                        <span>Inicio</span>
+                    </div>
+                   
+                </a>
+            </li>
+
+            <li class="menu menu-heading">
+                <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus"><line x1="5" y1="12" x2="19" y2="12"></line></svg><span>ACCESO RAPIDO</span></div>
+            </li>
+
+
+            <li class="menu">
+                <a href="jugar.php" class="dropdown-toggle">
+                    <div class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-stop-circle"><circle cx="12" cy="12" r="10"></circle><rect x="9" y="9" width="6" height="6"></rect></svg>                                <span>Jugar Loterías</span>
+                    </div>
+                </a>
+            </li>
+
+
+            <li class="menu">
+                <a href="comprar-puntos.php" aria-expanded="false" class="dropdown-toggle">
+                    <div class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                        <span>Comprar Puntos</span>
+                    </div>
+                </a>
+            </li>
+
+
+            <li class="menu">
+                <a href="mezclador.php" aria-expanded="false" class="dropdown-toggle">
+                    <div class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-zap"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>                        <span>Mezclador de Pale</span>
+                    </div>
+                  
+                </a>
+            </li>
+
+           
+
+            <li class="menu">
+                <a href="resultados.php" aria-expanded="false" class="dropdown-toggle">
+                    <div class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-minus"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="9" y1="15" x2="15" y2="15"></line></svg>
+                        <span>Resultados de Hoy</span>
+                    </div>
+                  
+                </a>
+            </li>
+
+           
+
+                
+         
+
+            
+            
+        <div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></ul>
+        
+    </nav>
+</div>
+<!--  END SIDEBAR  -->
+
+<!--  BEGIN CONTENT AREA  -->
+<div id="content" class="main-content">
+    <div class="layout-px-spacing">
+
+        <div class="middle-content container-xxl p-0">
+
+            <div class="row layout-top-spacing">
+
+                 
+
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
+               
+                <div class="info-box-1 color-2" style="max-width: 100%;">
+<div class="info-box-1-icon-wrapper">
+<div class="info-box-1-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg></div>
+<div class="info-box-1-content-wrapper">
+<h3 class="info-box-1-title">Resultados</h3>
+<div class="info-box-1-content">Consulta aquí los resultados de los sorteos más recientes, para ver resultados anteriores puedes visitar los sitios web de cada lotería </div>
+</div>
+</div>
+                           
+                </div>
+
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
+
+                <div class="table-responsive">
+<table class="table table-hover table-striped table-bordered">
+<thead>
+    <tr>
+        
+        <th scope="col">Loteria</th>
+        <th scope="col">Resultados</th>
+        <th class="text-center" scope="col">Fecha</th>
+        <th class="text-center" scope="col">Hora Cierre</th>
+    </tr>
+    <tr aria-hidden="true" class="mt-3 d-block table-row-hidden"></tr>
+</thead>
+<tbody>
+
+
+            
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                            <img src="https://www.tusnumerosrd.com/images/loterias/anguila.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">Anguila Mañana 8AM</h6>
+                                            <span class="text-success">Sorteo Mañana</span>
+                      
+                    
+                      
+
+                     
+                    
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">01</div>
+        <div class="badge badge-primary badge-dot">22</div>
+        <div class="badge badge-primary badge-dot">24</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">04 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">7:50AM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                
+            
+            
+            
+            
+            
+            
+                        <img src="https://www.tusnumerosrd.com/images/loterias/new_york.svg" style="    width: 54px; margin-right: 10px;">
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">New York Noche</h6>
+                      
+                    
+                      
+
+                     
+                    
+                                            <span class="text-warning">Sorteo Noche</span>
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">09</div>
+        <div class="badge badge-primary badge-dot">48</div>
+        <div class="badge badge-primary badge-dot">59</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">10:25PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                            <img src="https://www.tusnumerosrd.com/images/loterias/anguila.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">Anguila Noche 10PM</h6>
+                      
+                    
+                      
+
+                     
+                    
+                                            <span class="text-warning">Sorteo Noche</span>
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">94</div>
+        <div class="badge badge-primary badge-dot">40</div>
+        <div class="badge badge-primary badge-dot">93</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">9:50PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                
+            
+             
+            <img src="https://www.tusnumerosrd.com/images/loterias/florida.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+            
+            
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">Loteria Florida Noche</h6>
+                      
+                    
+                      
+
+                     
+                    
+                                            <span class="text-warning">Sorteo Noche</span>
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">72</div>
+        <div class="badge badge-primary badge-dot">22</div>
+        <div class="badge badge-primary badge-dot">11</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">9:40PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                            <img src="https://www.tusnumerosrd.com/images/loterias/anguila.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">Anguila Noche 9:00PM</h6>
+                      
+                    
+                      
+
+                     
+                    
+                                            <span class="text-warning">Sorteo Noche</span>
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">53</div>
+        <div class="badge badge-primary badge-dot">36</div>
+        <div class="badge badge-primary badge-dot">47</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">8:55PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                
+            
+            
+            
+            
+            
+                        <img src="https://www.tusnumerosrd.com/images/loterias/primera.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">La Primera Noche</h6>
+                      
+                    
+                      
+
+                     
+                    
+                                            <span class="text-warning">Sorteo Noche</span>
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">07</div>
+        <div class="badge badge-primary badge-dot">62</div>
+        <div class="badge badge-primary badge-dot">65</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">7:55PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                            <img src="https://www.tusnumerosrd.com/images/loterias/anguila.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">Anguila Noche 8PM</h6>
+                      
+                    
+                      
+
+                     
+                    
+                                            <span class="text-warning">Sorteo Noche</span>
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">01</div>
+        <div class="badge badge-primary badge-dot">27</div>
+        <div class="badge badge-primary badge-dot">53</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">7:55PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                
+            
+            
+            
+            
+                        <img src="https://www.tusnumerosrd.com/images/loterias/loteka.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">Loteka Noche</h6>
+                      
+                    
+                      
+
+                     
+                    
+                                            <span class="text-warning">Sorteo Noche</span>
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">49</div>
+        <div class="badge badge-primary badge-dot">68</div>
+        <div class="badge badge-primary badge-dot">94</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">7:55PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                
+            
+            
+                        <img src="https://www.tusnumerosrd.com/images/loterias/king.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+            
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">King lottery Noche</h6>
+                      
+                    
+                      
+
+                     
+                    
+                                            <span class="text-warning">Sorteo Noche</span>
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">69</div>
+        <div class="badge badge-primary badge-dot">34</div>
+        <div class="badge badge-primary badge-dot">62</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">7:25PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                            <img src="https://www.tusnumerosrd.com/images/loterias/anguila.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">Anguila Noche 7PM</h6>
+                      
+                    
+                      
+
+                     
+                    
+                                            <span class="text-warning">Sorteo Noche</span>
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">41</div>
+        <div class="badge badge-primary badge-dot">41</div>
+        <div class="badge badge-primary badge-dot">36</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">6:55PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                
+                        <img src="https://www.tusnumerosrd.com/images/loterias/nacional.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+            
+            
+            
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">Loteria Nacional Noche</h6>
+                      
+                    
+                      
+
+                     
+                    
+                                            <span class="text-warning">Sorteo Noche</span>
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">86</div>
+        <div class="badge badge-primary badge-dot">60</div>
+        <div class="badge badge-primary badge-dot">45</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">5:52PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                
+            
+            
+            
+            
+            
+            
+            
+
+                        <img src="https://www.tusnumerosrd.com/images/loterias/lasuerte.svg" style="    width: 54px; margin-right: 10px;">
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">La Suerte noche</h6>
+                      
+                    
+                      
+
+                     
+                    
+                                            <span class="text-warning">Sorteo Noche</span>
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">26</div>
+        <div class="badge badge-primary badge-dot">77</div>
+        <div class="badge badge-primary badge-dot">00</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">5:55PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                            <img src="https://www.tusnumerosrd.com/images/loterias/anguila.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">Anguila Tarde 6:00PM</h6>
+                      
+                    
+                      
+
+                                            <span class="text-primary text-primary">Sorteo Tarde</span>
+                     
+                    
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">04</div>
+        <div class="badge badge-primary badge-dot">84</div>
+        <div class="badge badge-primary badge-dot">15</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">5:55PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                            <img src="https://www.tusnumerosrd.com/images/loterias/anguila.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">Anguila Tarde 5PM</h6>
+                      
+                    
+                      
+
+                                            <span class="text-primary text-primary">Sorteo Tarde</span>
+                     
+                    
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">79</div>
+        <div class="badge badge-primary badge-dot">72</div>
+        <div class="badge badge-primary badge-dot">02</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">4:55PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                
+            
+            
+            
+                        <img src="https://www.tusnumerosrd.com/images/loterias/leidsa.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">Leidsa Noche</h6>
+                      
+                    
+                      
+
+                     
+                    
+                                            <span class="text-warning">Sorteo Noche</span>
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">29</div>
+        <div class="badge badge-primary badge-dot">52</div>
+        <div class="badge badge-primary badge-dot">65</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">3:53PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                            <img src="https://www.tusnumerosrd.com/images/loterias/anguila.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">Anguila Tarde 4PM</h6>
+                      
+                    
+                      
+
+                                            <span class="text-primary text-primary">Sorteo Tarde</span>
+                     
+                    
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">28</div>
+        <div class="badge badge-primary badge-dot">42</div>
+        <div class="badge badge-primary badge-dot">41</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">3:55PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                            <img src="https://www.tusnumerosrd.com/images/loterias/anguila.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">Anguila Tarde 3PM</h6>
+                      
+                    
+                      
+
+                                            <span class="text-primary text-primary">Sorteo Tarde</span>
+                     
+                    
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">56</div>
+        <div class="badge badge-primary badge-dot">56</div>
+        <div class="badge badge-primary badge-dot">29</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">2:55PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                
+                        <img src="https://www.tusnumerosrd.com/images/loterias/nacional.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+            
+            
+            
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">Loteria Nacional Tarde (gana mas)</h6>
+                      
+                    
+                      
+
+                                            <span class="text-primary text-primary">Sorteo Tarde</span>
+                     
+                    
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">76</div>
+        <div class="badge badge-primary badge-dot">05</div>
+        <div class="badge badge-primary badge-dot"></div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">2:30PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                
+            
+            
+            
+            
+            
+            
+                        <img src="https://www.tusnumerosrd.com/images/loterias/new_york.svg" style="    width: 54px; margin-right: 10px;">
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">New York Tarde</h6>
+                      
+                    
+                      
+
+                                            <span class="text-primary text-primary">Sorteo Tarde</span>
+                     
+                    
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">75</div>
+        <div class="badge badge-primary badge-dot">33</div>
+        <div class="badge badge-primary badge-dot">69</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">2:25PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                            <img src="https://www.tusnumerosrd.com/images/loterias/anguila.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">Anguila Tarde 2PM</h6>
+                      
+                    
+                      
+
+                                            <span class="text-primary text-primary">Sorteo Tarde</span>
+                     
+                    
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">08</div>
+        <div class="badge badge-primary badge-dot">26</div>
+        <div class="badge badge-primary badge-dot">06</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">1:55PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                
+            
+             
+            <img src="https://www.tusnumerosrd.com/images/loterias/florida.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+            
+            
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">Loteria Florida Tarde</h6>
+                      
+                    
+                      
+
+                                            <span class="text-primary text-primary">Sorteo Tarde</span>
+                     
+                    
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">94</div>
+        <div class="badge badge-primary badge-dot">34</div>
+        <div class="badge badge-primary badge-dot">55</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">1:25PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                
+            
+            
+            
+            
+            
+            
+            
+
+            
+                         <img src="https://www.tusnumerosrd.com/images/loterias/real.svg" style="    width: 54px; margin-right: 10px;">
+            
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">Loteria Real Tarde</h6>
+                      
+                    
+                      
+
+                                            <span class="text-primary text-primary">Sorteo Tarde</span>
+                     
+                    
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">24</div>
+        <div class="badge badge-primary badge-dot">32</div>
+        <div class="badge badge-primary badge-dot">14</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">12:55PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                            <img src="https://www.tusnumerosrd.com/images/loterias/anguila.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">Anguila Tarde 1:00PM</h6>
+                      
+                    
+                      
+
+                                            <span class="text-primary text-primary">Sorteo Tarde</span>
+                     
+                    
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">59</div>
+        <div class="badge badge-primary badge-dot">81</div>
+        <div class="badge badge-primary badge-dot">09</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">12:55PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                
+            
+            
+            
+            
+            
+            
+            
+
+                        <img src="https://www.tusnumerosrd.com/images/loterias/lasuerte.svg" style="    width: 54px; margin-right: 10px;">
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">La Suerte Medio Dia</h6>
+                      
+                    
+                                            <span class="text-info">Sorteo Medio Dia</span>
+                      
+
+                     
+                    
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">80</div>
+        <div class="badge badge-primary badge-dot">88</div>
+        <div class="badge badge-primary badge-dot">82</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">12:25PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                
+            
+            
+                        <img src="https://www.tusnumerosrd.com/images/loterias/king.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+            
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">King lottery Medio Dia</h6>
+                      
+                    
+                                            <span class="text-info">Sorteo Medio Dia</span>
+                      
+
+                     
+                    
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">17</div>
+        <div class="badge badge-primary badge-dot">81</div>
+        <div class="badge badge-primary badge-dot">37</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">12:25PM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                
+            
+            
+            
+            
+            
+                        <img src="https://www.tusnumerosrd.com/images/loterias/primera.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">La Primera Tarde</h6>
+                      
+                    
+                                            <span class="text-info">Sorteo Medio Dia</span>
+                      
+
+                     
+                    
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">15</div>
+        <div class="badge badge-primary badge-dot">56</div>
+        <div class="badge badge-primary badge-dot">98</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">11:55AM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                
+            
+            
+            
+            
+            
+            
+            
+
+            
+             
+                         <img src="https://www.tusnumerosrd.com/images/loterias/lotedom.svg" style="    width: 54px; margin-right: 10px;">
+                            <div class="media-body align-self-center">
+                    <h6 class="mb-0">Lotedom</h6>
+                      
+                    
+                                            <span class="text-info">Sorteo Medio Dia</span>
+                      
+
+                     
+                    
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">73</div>
+        <div class="badge badge-primary badge-dot">04</div>
+        <div class="badge badge-primary badge-dot">15</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">11:55AM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                            <img src="https://www.tusnumerosrd.com/images/loterias/anguila.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">Anguila Medio Dia 12PM</h6>
+                      
+                    
+                                            <span class="text-info">Sorteo Medio Dia</span>
+                      
+
+                     
+                    
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">08</div>
+        <div class="badge badge-primary badge-dot">24</div>
+        <div class="badge badge-primary badge-dot">39</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">11:55AM</td>
+       
+    </tr>
+
+
+
+
+    <tr>
+       
+        <td>
+            <div class="media">
+                            <img src="https://www.tusnumerosrd.com/images/loterias/anguila.svg" style="    width: 54px; margin-right: 10px;">
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+             
+                             <div class="media-body align-self-center">
+                    <h6 class="mb-0">Anguila Mañana 11AM</h6>
+                                            <span class="text-success">Sorteo Mañana</span>
+                      
+                    
+                      
+
+                     
+                    
+                     
+                </div>
+            </div>
+        </td>
+        <td>
+
+        <div class="badge--group badgg">
+        <div class="badge badge-primary badge-dot">95</div>
+        <div class="badge badge-primary badge-dot">17</div>
+        <div class="badge badge-primary badge-dot">83</div>
+        </div>
+
+        </td>
+        <td class="text-center">
+           <span class="badge badge-light-primary">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+           <span class="table-inner-text">
+           <span class="table-inner-text">03 agosto           </span>  
+           </span>
+       </span></td>
+       <td class="text-center">10:55AM</td>
+       
+    </tr>
+
+
+
+    
+
+    
+</tbody>
+</table>
+</div>
+
+
+                  
+                </div>
+
+               
+
+                        
+               
+
+    </div>
+    <!--  BEGIN FOOTER  -->
+    <div class="footer-wrapper">
+        <div class="footer-section f-section-1">
+            <p class="">Copyright © <span class="dynamic-year">2022</span> <a target="_blank" href="#">TusNumerosRd</a>, All rights reserved.</p>
+        </div>
+        <div class="footer-section f-section-2">
+            <p class="">Coded with <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></p>
+        </div>
+    </div>
+    <!--  END FOOTER  -->
+</div>
+<!--  END CONTENT AREA  -->
+
+</div>
+<!-- END MAIN CONTAINER -->
+
+<!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
+<script src="../src/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../src/plugins/src/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<script src="../src/plugins/src/mousetrap/mousetrap.min.js"></script>
+<script src="../layouts/vertical-dark-menu/app.js"></script>
+<!-- END GLOBAL MANDATORY SCRIPTS -->
+
+<!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
+<script src="../src/plugins/src/apex/apexcharts.min.js"></script>
+<script src="../src/assets/js/dashboard/dash_1.js"></script>
+<!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
+
+
+</div></div></div><svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;"><defs id="SvgjsDefs1002"></defs><polyline id="SvgjsPolyline1003" points="0,0"></polyline><path id="SvgjsPath1004" d="M0 0 "></path></svg></body></html>
