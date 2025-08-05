@@ -3216,5 +3216,103 @@
         "fecha": "2025-08-05",
         "hora": "12:55PM",
         "hora_scrapeo": "2025-08-05 13:50:05"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Gana Más",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/gana-mas.png",
+        "numeros": [
+            "22",
+            "24",
+            "94"
+        ],
+        "fecha_original": "05-08-2025 14:44",
+        "fecha": "2025-08-05",
+        "hora_scrapeo": "2025-08-05 15:10:23"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Juega + Pega +",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/b145cbb4804a550c7c9b7b5d793154bf.png",
+        "numeros": [
+            "15",
+            "22",
+            "21",
+            "04",
+            "23"
+        ],
+        "fecha_original": "05-08-2025 14:39",
+        "fecha": "2025-08-05",
+        "hora_scrapeo": "2025-08-05 15:10:23"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Take 5 Midday",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/take-5-midday-ny.png",
+        "numeros": [
+            "02",
+            "05",
+            "12",
+            "17",
+            "25"
+        ],
+        "fecha_original": "05-08-2025 14:31",
+        "fecha": "2025-08-05",
+        "hora_scrapeo": "2025-08-05 15:10:23"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "New York Tarde",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/new-york-tarde.png",
+        "numeros": [
+            "92",
+            "08",
+            "45"
+        ],
+        "fecha_original": "05-08-2025 14:31",
+        "fecha": "2025-08-05",
+        "hora_scrapeo": "2025-08-05 15:10:23"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Loteria Nacional Tarde (gana mas)",
+        "img": "https://www.tusnumerosrd.com/images/loterias/nacional.svg",
+        "numeros": [
+            "22",
+            "24",
+            "94"
+        ],
+        "fecha_original": "05 agosto",
+        "fecha": "2025-08-05",
+        "hora": "2:30PM",
+        "hora_scrapeo": "2025-08-05 15:10:34"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "New York Tarde",
+        "img": "https://www.tusnumerosrd.com/images/loterias/new_york.svg",
+        "numeros": [
+            "92",
+            "08",
+            "45"
+        ],
+        "fecha_original": "05 agosto",
+        "fecha": "2025-08-05",
+        "hora": "2:25PM",
+        "hora_scrapeo": "2025-08-05 15:10:34"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Tarde 2PM",
+        "img": "https://www.tusnumerosrd.com/images/loterias/anguila.svg",
+        "numeros": [
+            "51",
+            "45",
+            "72"
+        ],
+        "fecha_original": "05 agosto",
+        "fecha": "2025-08-05",
+        "hora": "1:55PM",
+        "hora_scrapeo": "2025-08-05 15:10:34"
     }
 ]
