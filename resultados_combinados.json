@@ -2896,5 +2896,121 @@
         "fecha": "2025-08-05",
         "hora": "10:55AM",
         "hora_scrapeo": "2025-08-05 11:08:30"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "La Primera Día",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/la-primera-dia.png",
+        "numeros": [
+            "78",
+            "89",
+            "38"
+        ],
+        "fecha_original": "05-08-2025 12:03",
+        "fecha": "2025-08-05",
+        "hora_scrapeo": "2025-08-05 12:28:55"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "El Quinielón Día",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/quinielon-dia.png",
+        "numeros": [
+            "95"
+        ],
+        "fecha_original": "05-08-2025 12:02",
+        "fecha": "2025-08-05",
+        "hora_scrapeo": "2025-08-05 12:28:55"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Agarra 4",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/agarra-4-lotedom.png",
+        "numeros": [
+            "32",
+            "44",
+            "71",
+            "15"
+        ],
+        "fecha_original": "05-08-2025 12:02",
+        "fecha": "2025-08-05",
+        "hora_scrapeo": "2025-08-05 12:28:55"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Super Palé",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/super-pale-lotedom.png",
+        "numeros": [
+            "32",
+            "15"
+        ],
+        "fecha_original": "05-08-2025 12:02",
+        "fecha": "2025-08-05",
+        "hora_scrapeo": "2025-08-05 12:28:55"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "El Quemaito Mayor",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/c700bf17161eed892af1be091a480ca4.png",
+        "numeros": [
+            "15"
+        ],
+        "fecha_original": "05-08-2025 12:01",
+        "fecha": "2025-08-05",
+        "hora_scrapeo": "2025-08-05 12:28:55"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Quiniela LoteDom",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/d46144f7e1f664fee5ba811f984c246e.png",
+        "numeros": [
+            "32",
+            "44",
+            "71"
+        ],
+        "fecha_original": "05-08-2025 12:01",
+        "fecha": "2025-08-05",
+        "hora_scrapeo": "2025-08-05 12:28:55"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Medio Dia 12PM",
+        "img": "https://www.tusnumerosrd.com/images/loterias/anguila.svg",
+        "numeros": [
+            "40",
+            "39",
+            "48"
+        ],
+        "fecha_original": "05 agosto",
+        "fecha": "2025-08-05",
+        "hora": "11:55AM",
+        "hora_scrapeo": "2025-08-05 12:29:11"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "La Primera Tarde",
+        "img": "https://www.tusnumerosrd.com/images/loterias/primera.svg",
+        "numeros": [
+            "78",
+            "89",
+            "38"
+        ],
+        "fecha_original": "05 agosto",
+        "fecha": "2025-08-05",
+        "hora": "11:55AM",
+        "hora_scrapeo": "2025-08-05 12:29:11"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Lotedom",
+        "img": "https://www.tusnumerosrd.com/images/loterias/lotedom.svg",
+        "numeros": [
+            "32",
+            "44",
+            "71"
+        ],
+        "fecha_original": "05 agosto",
+        "fecha": "2025-08-05",
+        "hora": "11:55AM",
+        "hora_scrapeo": "2025-08-05 12:29:11"
     }
 ]
