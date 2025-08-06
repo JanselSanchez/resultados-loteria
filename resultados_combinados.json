@@ -4195,5 +4195,62 @@
         "fecha": "2025-08-06",
         "hora": "1:25PM",
         "hora_scrapeo": "2025-08-06 14:00:09"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Juega + Pega +",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/b145cbb4804a550c7c9b7b5d793154bf.png",
+        "numeros": [
+            "19",
+            "14",
+            "01",
+            "07",
+            "18"
+        ],
+        "fecha_original": "06-08-2025 14:39",
+        "fecha": "2025-08-06",
+        "hora_scrapeo": "2025-08-06 14:40:14"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Take 5 Midday",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/take-5-midday-ny.png",
+        "numeros": [
+            "05",
+            "17",
+            "25",
+            "28",
+            "29"
+        ],
+        "fecha_original": "06-08-2025 14:31",
+        "fecha": "2025-08-06",
+        "hora_scrapeo": "2025-08-06 14:40:14"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "New York Tarde",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/new-york-tarde.png",
+        "numeros": [
+            "05",
+            "74",
+            "60"
+        ],
+        "fecha_original": "06-08-2025 14:31",
+        "fecha": "2025-08-06",
+        "hora_scrapeo": "2025-08-06 14:40:14"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Tarde 2PM",
+        "img": "https://www.tusnumerosrd.com/images/loterias/anguila.svg",
+        "numeros": [
+            "96",
+            "97",
+            "44"
+        ],
+        "fecha_original": "06 agosto",
+        "fecha": "2025-08-06",
+        "hora": "1:55PM",
+        "hora_scrapeo": "2025-08-06 14:40:26"
     }
 ]
