@@ -3736,5 +3736,34 @@
         "fecha": "2025-08-05",
         "hora": "8:53PM",
         "hora_scrapeo": "2025-08-05 21:13:13"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Florida Noche",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/florida-noche.png",
+        "numeros": [
+            "21",
+            "19",
+            "72"
+        ],
+        "fecha_original": "05-08-2025 21:52",
+        "fecha": "2025-08-05",
+        "hora_scrapeo": "2025-08-05 21:53:17"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Cash 4 Life",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/97e599e075ad3e4d8f66ab7a06363b0d.png",
+        "numeros": [
+            "01",
+            "29",
+            "47",
+            "48",
+            "49",
+            "04"
+        ],
+        "fecha_original": "05-08-2025 21:25",
+        "fecha": "2025-08-05",
+        "hora_scrapeo": "2025-08-05 21:53:17"
     }
 ]
