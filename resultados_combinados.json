@@ -3822,5 +3822,19 @@
         "fecha_original": "05-08-2025 23:12",
         "fecha": "2025-08-05",
         "hora_scrapeo": "2025-08-05 23:53:54"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Mañana 8AM",
+        "img": "https://www.tusnumerosrd.com/images/loterias/anguila.svg",
+        "numeros": [
+            "10",
+            "47",
+            "06"
+        ],
+        "fecha_original": "06 agosto",
+        "fecha": "2025-08-06",
+        "hora": "7:50AM",
+        "hora_scrapeo": "2025-08-06 08:37:54"
     }
 ]
