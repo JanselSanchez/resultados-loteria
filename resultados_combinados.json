@@ -3806,5 +3806,21 @@
         "fecha": "2025-08-05",
         "hora": "9:40PM",
         "hora_scrapeo": "2025-08-05 22:33:46"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Mega Millions",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/mega-millions.png",
+        "numeros": [
+            "12",
+            "27",
+            "42",
+            "59",
+            "65",
+            "02"
+        ],
+        "fecha_original": "05-08-2025 23:12",
+        "fecha": "2025-08-05",
+        "hora_scrapeo": "2025-08-05 23:53:54"
     }
 ]
