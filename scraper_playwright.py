@@ -11,7 +11,7 @@ from google.oauth2 import service_account
 import google.auth.transport.requests
 
 # === CONFIGURA AQUÍ TU JSON ===
-SERVICE_ACCOUNT_FILE = "bancard-a52ba-579846c6a728.json"
+SERVICE_ACCOUNT_FILE = os.getenv('GOOGLE_APPLICATION_CREDENTIALS', 'bancard-a52ba-579846c6a728.json')
 PROJECT_ID = "bancard-a52ba"
 
 MESES = {
