@@ -1,0 +1,19 @@
+# Ignora todas las claves de Google Cloud
+*.json
+
+# ¡Excepto los archivos que sí quieres subir! (por ejemplo package.json para node)
+!package.json
+!pubspec.lock
+
+# Ignora archivos HTML de debug
+debug_loterias.html
+debug_tusnumerosrd.html
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Otros temporales
+.DS_Store
+.env
