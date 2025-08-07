@@ -4735,5 +4735,46 @@
         "fecha": "2025-08-06",
         "hora": "8:53PM",
         "hora_scrapeo": "2025-08-06 21:23:17"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Florida Noche",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/florida-noche.png",
+        "numeros": [
+            "41",
+            "93",
+            "40"
+        ],
+        "fecha_original": "06-08-2025 21:52",
+        "fecha": "2025-08-06",
+        "hora_scrapeo": "2025-08-06 22:03:22"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Noche 10PM",
+        "img": "https://www.tusnumerosrd.com/images/loterias/anguila.svg",
+        "numeros": [
+            "40",
+            "39",
+            "47"
+        ],
+        "fecha_original": "06 agosto",
+        "fecha": "2025-08-06",
+        "hora": "9:50PM",
+        "hora_scrapeo": "2025-08-06 22:03:34"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Loteria Florida Noche",
+        "img": "https://www.tusnumerosrd.com/images/loterias/florida.svg",
+        "numeros": [
+            "41",
+            "93",
+            "40"
+        ],
+        "fecha_original": "06 agosto",
+        "fecha": "2025-08-06",
+        "hora": "9:40PM",
+        "hora_scrapeo": "2025-08-06 22:03:34"
     }
 ]
