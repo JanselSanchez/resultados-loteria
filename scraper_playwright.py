@@ -5,31 +5,37 @@ from datetime import datetime
 import os
 import re
 
+# --- FCM V1 DEPENDENCIAS ---
+import requests
+from google.oauth2 import service_account
+import google.auth.transport.requests
+
+# === CONFIGURA AQUÍ TU JSON ===
+SERVICE_ACCOUNT_FILE = "bancard-a52ba-579846c6a728.json"
+PROJECT_ID = "bancard-a52ba"
+
 MESES = {
     'enero': '01', 'febrero': '02', 'marzo': '03', 'abril': '04', 'mayo': '05', 'junio': '06',
     'julio': '07', 'agosto': '08', 'septiembre': '09', 'octubre': '10', 'noviembre': '11', 'diciembre': '12'
 }
 
 def normaliza_fecha(fecha):
-    # "04-08-2025 21:53" o "04-08-2025"
     match = re.match(r"(\d{2})-(\d{2})-(\d{4})", fecha)
     if match:
         return f"{match.group(3)}-{match.group(2)}-{match.group(1)}"
-    # "04 agosto"
     match = re.match(r"(\d{2})\s+([a-zA-Z]+)", fecha)
     if match:
         hoy = datetime.now()
         dia = match.group(1)
         mes = MESES.get(match.group(2).lower(), "01")
         return f"{hoy.year}-{mes}-{dia}"
-    # Si ya viene normalizada, regresa igual
     return fecha
 
 def scrapear_loterias_dominicanas():
     resultados = []
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=False)  # Cambia a True en producción
+            browser = p.chromium.launch(headless=False)
             page = browser.new_page()
             page.goto("https://loteriasdominicanas.com/pagina/ultimos-resultados", timeout=60000)
             page.wait_for_selector("div.game-info.p-2", timeout=20000)
@@ -80,7 +86,7 @@ def scrapear_tusnumerosrd():
     resultados = []
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=False)  # Cambia a True en producción
+            browser = p.chromium.launch(headless=False)
             page = browser.new_page()
             page.goto("https://www.tusnumerosrd.com/resultados.php", timeout=60000)
             page.wait_for_timeout(9000)
@@ -145,6 +151,39 @@ def evitar_duplicados(resultados_viejos, nuevos):
             no_duplicados.append(r)
     return resultados_viejos + no_duplicados
 
+# ========== FUNCION FCM V1 ==========
+def enviar_fcm_v1(title, body, topic="resultados_loteria"):
+    SCOPES = ['https://www.googleapis.com/auth/firebase.messaging']
+    credentials = service_account.Credentials.from_service_account_file(
+        SERVICE_ACCOUNT_FILE, scopes=SCOPES
+    )
+    auth_req = google.auth.transport.requests.Request()
+    credentials.refresh(auth_req)
+    access_token = credentials.token
+
+    url = f"https://fcm.googleapis.com/v1/projects/{PROJECT_ID}/messages:send"
+    message = {
+        "message": {
+            "topic": topic,
+            "notification": {
+                "title": title,
+                "body": body
+            }
+        }
+    }
+    headers = {
+        "Authorization": f"Bearer {access_token}",
+        "Content-Type": "application/json; UTF-8",
+    }
+
+    response = requests.post(url, headers=headers, data=json.dumps(message))
+    if response.status_code == 200:
+        print("✅ Notificación enviada exitosamente por FCM v1.")
+    else:
+        print(f"❌ Error enviando notificación FCM v1: {response.status_code} - {response.text}")
+
+# ========== MAIN ==========
+
 def main():
     print("🔍 Buscando en loteriasdominicanas.com...")
     resultados_ld = scrapear_loterias_dominicanas()
@@ -164,6 +203,13 @@ def main():
             json.dump(resultados_actualizados, f, indent=4, ensure_ascii=False)
         print(f"📦 Se guardaron {len(resultados_actualizados)} resultados en 'resultados_combinados.json'")
         print(f"➕ Nuevos resultados agregados: {nuevos_agregados}")
+
+        # Envia FCM solo si hubo resultados nuevos
+        if nuevos_agregados > 0:
+            enviar_fcm_v1(
+                "¡Nuevos Resultados de Lotería!",
+                f"Se agregaron {nuevos_agregados} nuevos resultados. Abre tu app para verlos."
+            )
     else:
         print("⚠️ No se pudo extraer ningún resultado de ninguna fuente.")
 
