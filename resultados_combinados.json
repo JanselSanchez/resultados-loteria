@@ -4431,5 +4431,33 @@
         "fecha": "2025-08-12",
         "hora": "2:25PM",
         "hora_scrapeo": "2025-08-12 14:42:24"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Gana Más",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/gana-mas.png",
+        "numeros": [
+            "00",
+            "71",
+            "81"
+        ],
+        "fecha_original": "12-08-2025 14:44",
+        "fecha": "2025-08-12",
+        "hora": null,
+        "hora_scrapeo": "2025-08-12 14:55:51"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Loteria Nacional Tarde (gana mas)",
+        "img": "https://www.tusnumerosrd.com/images/loterias/nacional.svg",
+        "numeros": [
+            "00",
+            "71",
+            "81"
+        ],
+        "fecha_original": "12 agosto",
+        "fecha": "2025-08-12",
+        "hora": "2:30PM",
+        "hora_scrapeo": "2025-08-12 14:56:03"
     }
 ]
