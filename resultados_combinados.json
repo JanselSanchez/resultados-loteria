@@ -5657,5 +5657,19 @@
         "fecha": "2025-08-13",
         "hora": null,
         "hora_scrapeo": "2025-08-13 19:37:10"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "King lottery Noche",
+        "img": "https://www.tusnumerosrd.com/images/loterias/king.svg",
+        "numeros": [
+            "38",
+            "95",
+            "54"
+        ],
+        "fecha_original": "13 agosto",
+        "fecha": "2025-08-13",
+        "hora": "7:25PM",
+        "hora_scrapeo": "2025-08-13 19:51:01"
     }
 ]
