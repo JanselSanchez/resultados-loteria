@@ -4883,5 +4883,50 @@
         "fecha": "2025-08-12",
         "hora": "8:53PM",
         "hora_scrapeo": "2025-08-12 21:04:11"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Cash 4 Life",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/97e599e075ad3e4d8f66ab7a06363b0d.png",
+        "numeros": [
+            "52",
+            "54",
+            "09",
+            "19",
+            "02",
+            "03"
+        ],
+        "fecha_original": "12-08-2025 21:10",
+        "fecha": "2025-08-12",
+        "hora": null,
+        "hora_scrapeo": "2025-08-12 21:17:39"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Lotería Nacional",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/7827e5ee87f05e864aa79f64210269c5.png",
+        "numeros": [
+            "81",
+            "10",
+            "07"
+        ],
+        "fecha_original": "12-08-2025 21:04",
+        "fecha": "2025-08-12",
+        "hora": null,
+        "hora_scrapeo": "2025-08-12 21:17:39"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Loteria Nacional Noche",
+        "img": "https://www.tusnumerosrd.com/images/loterias/nacional.svg",
+        "numeros": [
+            "81",
+            "10",
+            "07"
+        ],
+        "fecha_original": "12 agosto",
+        "fecha": "2025-08-12",
+        "hora": "8:52PM",
+        "hora_scrapeo": "2025-08-12 21:17:52"
     }
 ]
