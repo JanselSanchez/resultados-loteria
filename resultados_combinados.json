@@ -6726,5 +6726,19 @@
         "fecha": "2025-08-14",
         "hora": "6:55PM",
         "hora_scrapeo": "2025-08-14 19:06:26"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "King Lottery 7:30",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/quiniela-king-lottery-noche.png",
+        "numeros": [
+            "36",
+            "58",
+            "85"
+        ],
+        "fecha_original": "14-08-2025 19:33",
+        "fecha": "2025-08-14",
+        "hora": null,
+        "hora_scrapeo": "2025-08-14 19:33:30"
     }
 ]
