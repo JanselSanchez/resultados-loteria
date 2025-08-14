@@ -6484,5 +6484,19 @@
         "fecha": "2025-08-14",
         "hora": "12:55PM",
         "hora_scrapeo": "2025-08-14 13:11:52"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Florida Día",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/florida-dia.png",
+        "numeros": [
+            "48",
+            "13",
+            "18"
+        ],
+        "fecha_original": "14-08-2025 13:36",
+        "fecha": "2025-08-14",
+        "hora": null,
+        "hora_scrapeo": "2025-08-14 13:38:58"
     }
 ]
