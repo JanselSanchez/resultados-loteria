@@ -5671,5 +5671,104 @@
         "fecha": "2025-08-13",
         "hora": "7:25PM",
         "hora_scrapeo": "2025-08-13 19:51:01"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "El Quinielón Noche",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/quinielon-noche.png",
+        "numeros": [
+            "99"
+        ],
+        "fecha_original": "13-08-2025 20:03",
+        "fecha": "2025-08-13",
+        "hora": null,
+        "hora_scrapeo": "2025-08-13 20:04:27"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Loto 5",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/loto-5.png",
+        "numeros": [
+            "04",
+            "12",
+            "09",
+            "26",
+            "06",
+            "08"
+        ],
+        "fecha_original": "13-08-2025 20:03",
+        "fecha": "2025-08-13",
+        "hora": null,
+        "hora_scrapeo": "2025-08-13 20:04:27"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Mega Chances",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/mega-chances.png",
+        "numeros": [
+            "48",
+            "53",
+            "39",
+            "21",
+            "63"
+        ],
+        "fecha_original": "13-08-2025 20:00",
+        "fecha": "2025-08-13",
+        "hora": null,
+        "hora_scrapeo": "2025-08-13 20:04:27"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "MC Repartidera",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/mega-chances-repartidera.png",
+        "numeros": [
+            "67"
+        ],
+        "fecha_original": "13-08-2025 20:00",
+        "fecha": "2025-08-13",
+        "hora": null,
+        "hora_scrapeo": "2025-08-13 20:04:27"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Quiniela Loteka",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/quiniela-loteka.png",
+        "numeros": [
+            "91",
+            "09",
+            "25"
+        ],
+        "fecha_original": "13-08-2025 20:00",
+        "fecha": "2025-08-13",
+        "hora": null,
+        "hora_scrapeo": "2025-08-13 20:04:27"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Toca 3",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/toca-3.png",
+        "numeros": [
+            "7",
+            "3",
+            "3"
+        ],
+        "fecha_original": "13-08-2025 20:00",
+        "fecha": "2025-08-13",
+        "hora": null,
+        "hora_scrapeo": "2025-08-13 20:04:27"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Loteka Noche",
+        "img": "https://www.tusnumerosrd.com/images/loterias/loteka.svg",
+        "numeros": [
+            "91",
+            "09",
+            "25"
+        ],
+        "fecha_original": "13 agosto",
+        "fecha": "2025-08-13",
+        "hora": "7:55PM",
+        "hora_scrapeo": "2025-08-13 20:04:39"
     }
 ]
