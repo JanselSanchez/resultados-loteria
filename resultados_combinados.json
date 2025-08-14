@@ -6048,5 +6048,54 @@
         "fecha": "2025-08-13",
         "hora": "9:40PM",
         "hora_scrapeo": "2025-08-13 22:07:27"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Powerball Double Play",
+        "img": "",
+        "numeros": [
+            "29",
+            "33",
+            "41",
+            "50",
+            "54",
+            "23"
+        ],
+        "fecha_original": "13-08-2025 23:38",
+        "fecha": "2025-08-13",
+        "hora": null,
+        "hora_scrapeo": "2025-08-14 07:03:35"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "PowerBall",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/powerball.png",
+        "numeros": [
+            "04",
+            "11",
+            "40",
+            "44",
+            "50",
+            "04",
+            "3X"
+        ],
+        "fecha_original": "13-08-2025 23:03",
+        "fecha": "2025-08-13",
+        "hora": null,
+        "hora_scrapeo": "2025-08-14 07:03:35"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "New York Noche",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/new-york-noche.png",
+        "numeros": [
+            "71",
+            "79",
+            "15"
+        ],
+        "fecha_original": "13-08-2025 22:32",
+        "fecha": "2025-08-13",
+        "hora": null,
+        "hora_scrapeo": "2025-08-14 07:03:35"
     }
 ]
