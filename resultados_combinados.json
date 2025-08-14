@@ -5812,5 +5812,80 @@
         "fecha": "2025-08-13",
         "hora": "7:55PM",
         "hora_scrapeo": "2025-08-13 20:18:19"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Quiniela Leidsa",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/quiniela-leidsa.png",
+        "numeros": [
+            "40",
+            "54",
+            "49"
+        ],
+        "fecha_original": "13-08-2025 20:58",
+        "fecha": "2025-08-13",
+        "hora": null,
+        "hora_scrapeo": "2025-08-13 20:59:02"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Super Kino TV",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/super-kino.png",
+        "numeros": [
+            "03",
+            "10",
+            "11",
+            "16",
+            "17",
+            "19",
+            "20",
+            "29",
+            "33",
+            "42",
+            "43",
+            "44",
+            "46",
+            "51",
+            "52",
+            "58",
+            "74",
+            "77",
+            "78",
+            "79"
+        ],
+        "fecha_original": "13-08-2025 20:57",
+        "fecha": "2025-08-13",
+        "hora": null,
+        "hora_scrapeo": "2025-08-13 20:59:02"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Loto Pool",
+        "img": "https://cdn-lottery.kiskoo.com/b9f95bbf6087f617f58efb5078ca5898.png",
+        "numeros": [
+            "06",
+            "10",
+            "12",
+            "15",
+            "16"
+        ],
+        "fecha_original": "13-08-2025 20:57",
+        "fecha": "2025-08-13",
+        "hora": null,
+        "hora_scrapeo": "2025-08-13 20:59:02"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Pega 3 Más",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/pega-3-mas.png",
+        "numeros": [
+            "42",
+            "49",
+            "30"
+        ],
+        "fecha_original": "13-08-2025 20:56",
+        "fecha": "2025-08-13",
+        "hora": null,
+        "hora_scrapeo": "2025-08-13 20:59:02"
     }
 ]
