@@ -5770,5 +5770,47 @@
         "fecha": "2025-08-13",
         "hora": "7:55PM",
         "hora_scrapeo": "2025-08-13 20:04:39"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Primera Noche",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/la-primera-noche.png",
+        "numeros": [
+            "12",
+            "89",
+            "93"
+        ],
+        "fecha_original": "13-08-2025 20:04",
+        "fecha": "2025-08-13",
+        "hora": null,
+        "hora_scrapeo": "2025-08-13 20:18:07"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Noche 8PM",
+        "img": "https://www.tusnumerosrd.com/images/loterias/anguila.svg",
+        "numeros": [
+            "14",
+            "32",
+            "65"
+        ],
+        "fecha_original": "13 agosto",
+        "fecha": "2025-08-13",
+        "hora": "7:55PM",
+        "hora_scrapeo": "2025-08-13 20:18:19"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "La Primera Noche",
+        "img": "https://www.tusnumerosrd.com/images/loterias/primera.svg",
+        "numeros": [
+            "12",
+            "89",
+            "93"
+        ],
+        "fecha_original": "13 agosto",
+        "fecha": "2025-08-13",
+        "hora": "7:55PM",
+        "hora_scrapeo": "2025-08-13 20:18:19"
     }
 ]
