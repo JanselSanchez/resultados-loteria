@@ -6006,5 +6006,19 @@
         "fecha": "2025-08-13",
         "hora": "8:53PM",
         "hora_scrapeo": "2025-08-13 21:12:53"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Florida Noche",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/florida-noche.png",
+        "numeros": [
+            "38",
+            "86",
+            "10"
+        ],
+        "fecha_original": "13-08-2025 21:52",
+        "fecha": "2025-08-13",
+        "hora": null,
+        "hora_scrapeo": "2025-08-13 21:53:37"
     }
 ]
