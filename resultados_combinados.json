@@ -6754,5 +6754,54 @@
         "fecha": "2025-08-14",
         "hora": "7:25PM",
         "hora_scrapeo": "2025-08-14 19:47:21"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Mega Chances",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/mega-chances.png",
+        "numeros": [
+            "24",
+            "20",
+            "15",
+            "01",
+            "58"
+        ],
+        "fecha_original": "14-08-2025 20:00",
+        "fecha": "2025-08-14",
+        "hora": null,
+        "hora_scrapeo": "2025-08-14 20:00:48"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Toca 3",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/toca-3.png",
+        "numeros": [
+            "7",
+            "2",
+            "0"
+        ],
+        "fecha_original": "14-08-2025 19:58",
+        "fecha": "2025-08-14",
+        "hora": null,
+        "hora_scrapeo": "2025-08-14 20:00:48"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "MegaLotto",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/mega-lotto-loteka.png",
+        "numeros": [
+            "01",
+            "07",
+            "12",
+            "17",
+            "20",
+            "32",
+            "07",
+            "05"
+        ],
+        "fecha_original": "14-08-2025 19:57",
+        "fecha": "2025-08-14",
+        "hora": null,
+        "hora_scrapeo": "2025-08-14 20:00:48"
     }
 ]
