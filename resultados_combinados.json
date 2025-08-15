@@ -7537,5 +7537,33 @@
         "fecha": "2025-08-15",
         "hora": "12:55PM",
         "hora_scrapeo": "2025-08-15 13:12:04"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Florida Día",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/florida-dia.png",
+        "numeros": [
+            "72",
+            "87",
+            "87"
+        ],
+        "fecha_original": "15-08-2025 13:37",
+        "fecha": "2025-08-15",
+        "hora": null,
+        "hora_scrapeo": "2025-08-15 13:39:09"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Loteria Florida Tarde",
+        "img": "https://www.tusnumerosrd.com/images/loterias/florida.svg",
+        "numeros": [
+            "72",
+            "87",
+            ""
+        ],
+        "fecha_original": "15 agosto",
+        "fecha": "2025-08-15",
+        "hora": "1:25PM",
+        "hora_scrapeo": "2025-08-15 13:39:21"
     }
 ]
