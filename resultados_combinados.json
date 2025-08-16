@@ -7948,5 +7948,163 @@
         "fecha": "2025-08-15",
         "hora": "7:55PM",
         "hora_scrapeo": "2025-08-15 20:14:26"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Anguila Noche",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/anguila-noche-9pm.png",
+        "numeros": [
+            "03",
+            "83",
+            "18"
+        ],
+        "fecha_original": "15-08-2025 21:01",
+        "fecha": "2025-08-15",
+        "hora": null,
+        "hora_scrapeo": "2025-08-15 21:08:43"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Lotería Nacional",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/7827e5ee87f05e864aa79f64210269c5.png",
+        "numeros": [
+            "02",
+            "01",
+            "19"
+        ],
+        "fecha_original": "15-08-2025 20:59",
+        "fecha": "2025-08-15",
+        "hora": null,
+        "hora_scrapeo": "2025-08-15 21:08:43"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Super Palé",
+        "img": "https://cdn-lottery.kiskoo.com/fca169dc240019accb636a593b64bbe4.png",
+        "numeros": [
+            "53",
+            "02"
+        ],
+        "fecha_original": "15-08-2025 20:59",
+        "fecha": "2025-08-15",
+        "hora": null,
+        "hora_scrapeo": "2025-08-15 21:08:43"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Quiniela Leidsa",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/quiniela-leidsa.png",
+        "numeros": [
+            "53",
+            "95",
+            "35"
+        ],
+        "fecha_original": "15-08-2025 20:59",
+        "fecha": "2025-08-15",
+        "hora": null,
+        "hora_scrapeo": "2025-08-15 21:08:43"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Super Kino TV",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/super-kino.png",
+        "numeros": [
+            "01",
+            "08",
+            "10",
+            "11",
+            "22",
+            "28",
+            "32",
+            "34",
+            "38",
+            "40",
+            "41",
+            "42",
+            "50",
+            "56",
+            "59",
+            "62",
+            "63",
+            "68",
+            "70",
+            "79"
+        ],
+        "fecha_original": "15-08-2025 20:59",
+        "fecha": "2025-08-15",
+        "hora": null,
+        "hora_scrapeo": "2025-08-15 21:08:43"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Loto Pool",
+        "img": "https://cdn-lottery.kiskoo.com/b9f95bbf6087f617f58efb5078ca5898.png",
+        "numeros": [
+            "02",
+            "06",
+            "12",
+            "21",
+            "26"
+        ],
+        "fecha_original": "15-08-2025 20:57",
+        "fecha": "2025-08-15",
+        "hora": null,
+        "hora_scrapeo": "2025-08-15 21:08:43"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Pega 3 Más",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/pega-3-mas.png",
+        "numeros": [
+            "44",
+            "46",
+            "19"
+        ],
+        "fecha_original": "15-08-2025 20:57",
+        "fecha": "2025-08-15",
+        "hora": null,
+        "hora_scrapeo": "2025-08-15 21:08:43"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Noche 9:00PM",
+        "img": "https://www.tusnumerosrd.com/images/loterias/anguila.svg",
+        "numeros": [
+            "03",
+            "83",
+            "18"
+        ],
+        "fecha_original": "15 agosto",
+        "fecha": "2025-08-15",
+        "hora": "8:55PM",
+        "hora_scrapeo": "2025-08-15 21:08:55"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Loteria Nacional Noche",
+        "img": "https://www.tusnumerosrd.com/images/loterias/nacional.svg",
+        "numeros": [
+            "02",
+            "01",
+            "19"
+        ],
+        "fecha_original": "15 agosto",
+        "fecha": "2025-08-15",
+        "hora": "8:52PM",
+        "hora_scrapeo": "2025-08-15 21:08:55"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Leidsa Noche",
+        "img": "https://www.tusnumerosrd.com/images/loterias/leidsa.svg",
+        "numeros": [
+            "53",
+            "95",
+            "35"
+        ],
+        "fecha_original": "15 agosto",
+        "fecha": "2025-08-15",
+        "hora": "8:53PM",
+        "hora_scrapeo": "2025-08-15 21:08:55"
     }
 ]
