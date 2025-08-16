@@ -7837,5 +7837,116 @@
         "fecha": "2025-08-15",
         "hora": null,
         "hora_scrapeo": "2025-08-15 20:00:36"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Primera Noche",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/la-primera-noche.png",
+        "numeros": [
+            "22",
+            "03",
+            "83"
+        ],
+        "fecha_original": "15-08-2025 20:04",
+        "fecha": "2025-08-15",
+        "hora": null,
+        "hora_scrapeo": "2025-08-15 20:14:14"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "El Quinielón Noche",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/quinielon-noche.png",
+        "numeros": [
+            "69"
+        ],
+        "fecha_original": "15-08-2025 20:03",
+        "fecha": "2025-08-15",
+        "hora": null,
+        "hora_scrapeo": "2025-08-15 20:14:14"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Loto 5",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/loto-5.png",
+        "numeros": [
+            "01",
+            "35",
+            "32",
+            "33",
+            "31",
+            "01"
+        ],
+        "fecha_original": "15-08-2025 20:03",
+        "fecha": "2025-08-15",
+        "hora": null,
+        "hora_scrapeo": "2025-08-15 20:14:14"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Quiniela Loteka",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/quiniela-loteka.png",
+        "numeros": [
+            "88",
+            "51",
+            "85"
+        ],
+        "fecha_original": "15-08-2025 20:00",
+        "fecha": "2025-08-15",
+        "hora": null,
+        "hora_scrapeo": "2025-08-15 20:14:14"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "MC Repartidera",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/mega-chances-repartidera.png",
+        "numeros": [
+            "91"
+        ],
+        "fecha_original": "15-08-2025 20:00",
+        "fecha": "2025-08-15",
+        "hora": null,
+        "hora_scrapeo": "2025-08-15 20:14:14"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Noche 8PM",
+        "img": "https://www.tusnumerosrd.com/images/loterias/anguila.svg",
+        "numeros": [
+            "58",
+            "61",
+            "53"
+        ],
+        "fecha_original": "15 agosto",
+        "fecha": "2025-08-15",
+        "hora": "7:55PM",
+        "hora_scrapeo": "2025-08-15 20:14:26"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "La Primera Noche",
+        "img": "https://www.tusnumerosrd.com/images/loterias/primera.svg",
+        "numeros": [
+            "22",
+            "03",
+            "83"
+        ],
+        "fecha_original": "15 agosto",
+        "fecha": "2025-08-15",
+        "hora": "7:55PM",
+        "hora_scrapeo": "2025-08-15 20:14:26"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Loteka Noche",
+        "img": "https://www.tusnumerosrd.com/images/loterias/loteka.svg",
+        "numeros": [
+            "88",
+            "51",
+            "85"
+        ],
+        "fecha_original": "15 agosto",
+        "fecha": "2025-08-15",
+        "hora": "7:55PM",
+        "hora_scrapeo": "2025-08-15 20:14:26"
     }
 ]
