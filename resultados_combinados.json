@@ -10050,5 +10050,21 @@
     "fecha": "2025-08-17",
     "hora": "6:55PM",
     "hora_scrapeo": "2025-08-17 21:07:06"
+  },
+  {
+    "fuente": "loteriasdominicanas.com",
+    "loteria": "Cash 4 Life",
+    "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/97e599e075ad3e4d8f66ab7a06363b0d.png",
+    "numeros": [
+      "14",
+      "36",
+      "38",
+      "30",
+      "02",
+      "02"
+    ],
+    "fecha_original": "17-08-2025 21:09",
+    "fecha": "2025-08-17",
+    "hora_scrapeo": "2025-08-17 21:11:51"
   }
 ]
