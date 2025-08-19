@@ -10734,5 +10734,21 @@
         "fecha": "2025-08-19",
         "hora": "2:25PM",
         "hora_scrapeo": "2025-08-19 14:35:24"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Juega + Pega +",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/b145cbb4804a550c7c9b7b5d793154bf.png",
+        "numeros": [
+            "08",
+            "17",
+            "02",
+            "22",
+            "11"
+        ],
+        "fecha_original": "19-08-2025 14:44",
+        "fecha": "2025-08-19",
+        "hora": null,
+        "hora_scrapeo": "2025-08-19 14:46:23"
     }
 ]
