@@ -10434,5 +10434,89 @@
         "fecha": "2025-08-19",
         "hora": "11:55AM",
         "hora_scrapeo": "2025-08-19 12:04:20"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "La Suerte 12:30",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/la-suerte-dia.png",
+        "numeros": [
+            "38",
+            "62",
+            "76"
+        ],
+        "fecha_original": "19-08-2025 12:35",
+        "fecha": "2025-08-19",
+        "hora": null,
+        "hora_scrapeo": "2025-08-19 12:44:28"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "King Lottery 12:30",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/quiniela-king-lottery-dia.png",
+        "numeros": [
+            "22",
+            "80",
+            "77"
+        ],
+        "fecha_original": "19-08-2025 12:33",
+        "fecha": "2025-08-19",
+        "hora": null,
+        "hora_scrapeo": "2025-08-19 12:44:28"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "La Suerte Medio Dia",
+        "img": "https://www.tusnumerosrd.com/images/loterias/lasuerte.svg",
+        "numeros": [
+            "38",
+            "62",
+            "76"
+        ],
+        "fecha_original": "19 agosto",
+        "fecha": "2025-08-19",
+        "hora": "12:25PM",
+        "hora_scrapeo": "2025-08-19 12:44:40"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "King lottery Medio Dia",
+        "img": "https://www.tusnumerosrd.com/images/loterias/king.svg",
+        "numeros": [
+            "22",
+            "80",
+            "77"
+        ],
+        "fecha_original": "19 agosto",
+        "fecha": "2025-08-19",
+        "hora": "12:25PM",
+        "hora_scrapeo": "2025-08-19 12:44:40"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Medio Dia 12PM",
+        "img": "https://www.tusnumerosrd.com/images/loterias/anguila.svg",
+        "numeros": [
+            "53",
+            "70",
+            "26"
+        ],
+        "fecha_original": "19 agosto",
+        "fecha": "2025-08-19",
+        "hora": "11:55AM",
+        "hora_scrapeo": "2025-08-19 12:44:40"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "La Primera Tarde",
+        "img": "https://www.tusnumerosrd.com/images/loterias/primera.svg",
+        "numeros": [
+            "79",
+            "93",
+            "21"
+        ],
+        "fecha_original": "19 agosto",
+        "fecha": "2025-08-19",
+        "hora": "11:55AM",
+        "hora_scrapeo": "2025-08-19 12:44:40"
     }
 ]
