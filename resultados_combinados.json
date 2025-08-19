@@ -10221,5 +10221,40 @@
         "fecha": "2025-08-18",
         "hora": null,
         "hora_scrapeo": "2025-08-18 22:31:29"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Powerball Double Play",
+        "img": "",
+        "numeros": [
+            "06",
+            "28",
+            "38",
+            "48",
+            "55",
+            "23"
+        ],
+        "fecha_original": "18-08-2025 23:32",
+        "fecha": "2025-08-18",
+        "hora": null,
+        "hora_scrapeo": "2025-08-18 23:52:14"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "PowerBall",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/powerball.png",
+        "numeros": [
+            "15",
+            "46",
+            "61",
+            "63",
+            "64",
+            "01",
+            "3X"
+        ],
+        "fecha_original": "18-08-2025 23:02",
+        "fecha": "2025-08-18",
+        "hora": null,
+        "hora_scrapeo": "2025-08-18 23:52:14"
     }
 ]
