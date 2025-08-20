@@ -11083,5 +11083,120 @@
         "fecha": "2025-08-19",
         "hora": "7:55PM",
         "hora_scrapeo": "2025-08-19 20:13:02"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Anguila Noche",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/anguila-noche-9pm.png",
+        "numeros": [
+            "75",
+            "77"
+        ],
+        "fecha_original": "19-08-2025 21:00",
+        "fecha": "2025-08-19",
+        "hora": null,
+        "hora_scrapeo": "2025-08-19 21:01:34"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Super Palé",
+        "img": "https://cdn-lottery.kiskoo.com/fca169dc240019accb636a593b64bbe4.png",
+        "numeros": [
+            "93",
+            "34"
+        ],
+        "fecha_original": "19-08-2025 21:00",
+        "fecha": "2025-08-19",
+        "hora": null,
+        "hora_scrapeo": "2025-08-19 21:01:34"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Lotería Nacional",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/7827e5ee87f05e864aa79f64210269c5.png",
+        "numeros": [
+            "34",
+            "79",
+            "09"
+        ],
+        "fecha_original": "19-08-2025 21:00",
+        "fecha": "2025-08-19",
+        "hora": null,
+        "hora_scrapeo": "2025-08-19 21:01:34"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Quiniela Leidsa",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/quiniela-leidsa.png",
+        "numeros": [
+            "93",
+            "78",
+            "77"
+        ],
+        "fecha_original": "19-08-2025 20:59",
+        "fecha": "2025-08-19",
+        "hora": null,
+        "hora_scrapeo": "2025-08-19 21:01:34"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Super Kino TV",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/super-kino.png",
+        "numeros": [
+            "04",
+            "05",
+            "06",
+            "07",
+            "09",
+            "11",
+            "19",
+            "21",
+            "22",
+            "26",
+            "27",
+            "32",
+            "39",
+            "40",
+            "43",
+            "47",
+            "59",
+            "64",
+            "70",
+            "71"
+        ],
+        "fecha_original": "19-08-2025 20:58",
+        "fecha": "2025-08-19",
+        "hora": null,
+        "hora_scrapeo": "2025-08-19 21:01:34"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Loto Pool",
+        "img": "https://cdn-lottery.kiskoo.com/b9f95bbf6087f617f58efb5078ca5898.png",
+        "numeros": [
+            "04",
+            "07",
+            "08",
+            "14",
+            "21"
+        ],
+        "fecha_original": "19-08-2025 20:57",
+        "fecha": "2025-08-19",
+        "hora": null,
+        "hora_scrapeo": "2025-08-19 21:01:34"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Pega 3 Más",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/pega-3-mas.png",
+        "numeros": [
+            "26",
+            "19",
+            "30"
+        ],
+        "fecha_original": "19-08-2025 20:56",
+        "fecha": "2025-08-19",
+        "hora": null,
+        "hora_scrapeo": "2025-08-19 21:01:34"
     }
 ]
