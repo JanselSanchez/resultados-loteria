@@ -11576,5 +11576,47 @@
         "fecha": "2025-08-20",
         "hora": null,
         "hora_scrapeo": "2025-08-20 12:34:03"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "La Suerte 12:30",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/la-suerte-dia.png",
+        "numeros": [
+            "82",
+            "13",
+            "60"
+        ],
+        "fecha_original": "20-08-2025 12:34",
+        "fecha": "2025-08-20",
+        "hora": null,
+        "hora_scrapeo": "2025-08-20 12:41:02"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "La Suerte Medio Dia",
+        "img": "https://www.tusnumerosrd.com/images/loterias/lasuerte.svg",
+        "numeros": [
+            "82",
+            "13",
+            "60"
+        ],
+        "fecha_original": "20 agosto",
+        "fecha": "2025-08-20",
+        "hora": "12:25PM",
+        "hora_scrapeo": "2025-08-20 12:41:14"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "King lottery Medio Dia",
+        "img": "https://www.tusnumerosrd.com/images/loterias/king.svg",
+        "numeros": [
+            "54",
+            "03",
+            "49"
+        ],
+        "fecha_original": "20 agosto",
+        "fecha": "2025-08-20",
+        "hora": "12:25PM",
+        "hora_scrapeo": "2025-08-20 12:41:14"
     }
 ]
