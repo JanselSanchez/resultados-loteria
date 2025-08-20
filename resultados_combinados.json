@@ -11672,5 +11672,76 @@
         "fecha": "2025-08-20",
         "hora": null,
         "hora_scrapeo": "2025-08-20 13:01:56"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Quiniela Real",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/loteria-real.png",
+        "numeros": [
+            "31",
+            "97",
+            "91"
+        ],
+        "fecha_original": "20-08-2025 13:03",
+        "fecha": "2025-08-20",
+        "hora": null,
+        "hora_scrapeo": "2025-08-20 13:08:56"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Nueva Yol Real",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/nueva-yol-loteria-real.png",
+        "numeros": [
+            "33",
+            "08",
+            "75",
+            "Roja"
+        ],
+        "fecha_original": "20-08-2025 13:02",
+        "fecha": "2025-08-20",
+        "hora": null,
+        "hora_scrapeo": "2025-08-20 13:08:56"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Anguila Medio Día",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/anguila-medio-dia-1pm.png",
+        "numeros": [
+            "81",
+            "12",
+            "68"
+        ],
+        "fecha_original": "20-08-2025 13:02",
+        "fecha": "2025-08-20",
+        "hora": null,
+        "hora_scrapeo": "2025-08-20 13:08:56"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Loteria Real Tarde",
+        "img": "https://www.tusnumerosrd.com/images/loterias/real.svg",
+        "numeros": [
+            "31",
+            "97",
+            "91"
+        ],
+        "fecha_original": "20 agosto",
+        "fecha": "2025-08-20",
+        "hora": "12:55PM",
+        "hora_scrapeo": "2025-08-20 13:09:08"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Tarde 1:00PM",
+        "img": "https://www.tusnumerosrd.com/images/loterias/anguila.svg",
+        "numeros": [
+            "81",
+            "12",
+            "68"
+        ],
+        "fecha_original": "20 agosto",
+        "fecha": "2025-08-20",
+        "hora": "12:55PM",
+        "hora_scrapeo": "2025-08-20 13:09:08"
     }
 ]
