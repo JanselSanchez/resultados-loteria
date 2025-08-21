@@ -12701,5 +12701,118 @@
         "fecha": "2025-08-21",
         "hora": "12:25PM",
         "hora_scrapeo": "2025-08-21 12:50:36"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Quiniela Real",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/loteria-real.png",
+        "numeros": [
+            "80",
+            "33",
+            "98"
+        ],
+        "fecha_original": "21-08-2025 13:03",
+        "fecha": "2025-08-21",
+        "hora": null,
+        "hora_scrapeo": "2025-08-21 13:04:19"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Nueva Yol Real",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/nueva-yol-loteria-real.png",
+        "numeros": [
+            "02",
+            "35",
+            "25",
+            "Roja"
+        ],
+        "fecha_original": "21-08-2025 13:02",
+        "fecha": "2025-08-21",
+        "hora": null,
+        "hora_scrapeo": "2025-08-21 13:04:19"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Anguila Medio Día",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/anguila-medio-dia-1pm.png",
+        "numeros": [
+            "91",
+            "09",
+            "34"
+        ],
+        "fecha_original": "21-08-2025 13:00",
+        "fecha": "2025-08-21",
+        "hora": null,
+        "hora_scrapeo": "2025-08-21 13:04:19"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Loto Pool",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/loto pool real.png",
+        "numeros": [
+            "48",
+            "58",
+            "91",
+            "44"
+        ],
+        "fecha_original": "21-08-2025 13:00",
+        "fecha": "2025-08-21",
+        "hora": null,
+        "hora_scrapeo": "2025-08-21 13:04:19"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Pega 4 Real",
+        "img": "https://cdn-lottery.kiskoo.com/8a3caa57152f16610c4582a57ebaf80c.png",
+        "numeros": [
+            "6",
+            "1",
+            "0",
+            "5"
+        ],
+        "fecha_original": "21-08-2025 12:58",
+        "fecha": "2025-08-21",
+        "hora": null,
+        "hora_scrapeo": "2025-08-21 13:04:19"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Tu Fecha Real",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/tu fecha real.png",
+        "numeros": [
+            "14"
+        ],
+        "fecha_original": "21-08-2025 12:57",
+        "fecha": "2025-08-21",
+        "hora": null,
+        "hora_scrapeo": "2025-08-21 13:04:19"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Loteria Real Tarde",
+        "img": "https://www.tusnumerosrd.com/images/loterias/real.svg",
+        "numeros": [
+            "80",
+            "33",
+            "98"
+        ],
+        "fecha_original": "21 agosto",
+        "fecha": "2025-08-21",
+        "hora": "12:55PM",
+        "hora_scrapeo": "2025-08-21 13:04:30"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Tarde 1:00PM",
+        "img": "https://www.tusnumerosrd.com/images/loterias/anguila.svg",
+        "numeros": [
+            "91",
+            "09",
+            "34"
+        ],
+        "fecha_original": "21 agosto",
+        "fecha": "2025-08-21",
+        "hora": "12:55PM",
+        "hora_scrapeo": "2025-08-21 13:04:30"
     }
 ]
