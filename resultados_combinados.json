@@ -12659,5 +12659,19 @@
         "fecha": "2025-08-21",
         "hora": null,
         "hora_scrapeo": "2025-08-21 12:36:27"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "La Suerte Medio Dia",
+        "img": "https://www.tusnumerosrd.com/images/loterias/lasuerte.svg",
+        "numeros": [
+            "20",
+            "22",
+            "91"
+        ],
+        "fecha_original": "21 agosto",
+        "fecha": "2025-08-21",
+        "hora": "12:25PM",
+        "hora_scrapeo": "2025-08-21 12:43:38"
     }
 ]
