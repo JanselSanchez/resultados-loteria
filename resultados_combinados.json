@@ -12986,5 +12986,33 @@
         "fecha": "2025-08-21",
         "hora": "4:55PM",
         "hora_scrapeo": "2025-08-21 17:07:11"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Anguila Tarde",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/anguila-tarde-6pm.png",
+        "numeros": [
+            "98",
+            "04",
+            "85"
+        ],
+        "fecha_original": "21-08-2025 18:01",
+        "fecha": "2025-08-21",
+        "hora": null,
+        "hora_scrapeo": "2025-08-21 18:02:33"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Tarde 6:00PM",
+        "img": "https://www.tusnumerosrd.com/images/loterias/anguila.svg",
+        "numeros": [
+            "98",
+            "04",
+            "85"
+        ],
+        "fecha_original": "21 agosto",
+        "fecha": "2025-08-21",
+        "hora": "5:55PM",
+        "hora_scrapeo": "2025-08-21 18:02:45"
     }
 ]
