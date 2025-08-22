@@ -13159,5 +13159,48 @@
         "fecha": "2025-08-21",
         "hora": null,
         "hora_scrapeo": "2025-08-21 20:01:35"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Primera Noche",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/la-primera-noche.png",
+        "numeros": [
+            "27",
+            "72",
+            "52"
+        ],
+        "fecha_original": "21-08-2025 20:04",
+        "fecha": "2025-08-21",
+        "hora": null,
+        "hora_scrapeo": "2025-08-21 20:08:35"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "El Quinielón Noche",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/quinielon-noche.png",
+        "numeros": [
+            "97"
+        ],
+        "fecha_original": "21-08-2025 20:03",
+        "fecha": "2025-08-21",
+        "hora": null,
+        "hora_scrapeo": "2025-08-21 20:08:35"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Loto 5",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/loto-5.png",
+        "numeros": [
+            "28",
+            "30",
+            "36",
+            "07",
+            "06",
+            "01"
+        ],
+        "fecha_original": "21-08-2025 20:03",
+        "fecha": "2025-08-21",
+        "hora": null,
+        "hora_scrapeo": "2025-08-21 20:08:35"
     }
 ]
