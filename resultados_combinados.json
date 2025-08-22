@@ -13613,5 +13613,73 @@
         "fecha": "2025-08-22",
         "hora": null,
         "hora_scrapeo": "2025-08-22 12:02:31"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "La Primera Día",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/la-primera-dia.png",
+        "numeros": [
+            "22",
+            "78",
+            "57"
+        ],
+        "fecha_original": "22-08-2025 12:03",
+        "fecha": "2025-08-22",
+        "hora": null,
+        "hora_scrapeo": "2025-08-22 12:09:31"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "El Quinielón Día",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/quinielon-dia.png",
+        "numeros": [
+            "01"
+        ],
+        "fecha_original": "22-08-2025 12:03",
+        "fecha": "2025-08-22",
+        "hora": null,
+        "hora_scrapeo": "2025-08-22 12:09:31"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "La Primera Tarde",
+        "img": "https://www.tusnumerosrd.com/images/loterias/primera.svg",
+        "numeros": [
+            "22",
+            "78",
+            "57"
+        ],
+        "fecha_original": "22 agosto",
+        "fecha": "2025-08-22",
+        "hora": "11:55AM",
+        "hora_scrapeo": "2025-08-22 12:09:45"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Medio Dia 12PM",
+        "img": "https://www.tusnumerosrd.com/images/loterias/anguila.svg",
+        "numeros": [
+            "74",
+            "31",
+            "49"
+        ],
+        "fecha_original": "22 agosto",
+        "fecha": "2025-08-22",
+        "hora": "11:55AM",
+        "hora_scrapeo": "2025-08-22 12:09:45"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Lotedom",
+        "img": "https://www.tusnumerosrd.com/images/loterias/lotedom.svg",
+        "numeros": [
+            "85",
+            "84",
+            "90"
+        ],
+        "fecha_original": "22 agosto",
+        "fecha": "2025-08-22",
+        "hora": "11:55AM",
+        "hora_scrapeo": "2025-08-22 12:09:45"
     }
 ]
