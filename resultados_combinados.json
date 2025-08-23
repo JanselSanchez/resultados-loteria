@@ -14493,5 +14493,19 @@
         "fecha": "2025-08-22",
         "hora": "9:40PM",
         "hora_scrapeo": "2025-08-22 21:57:14"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Noche 10PM",
+        "img": "https://www.tusnumerosrd.com/images/loterias/anguila.svg",
+        "numeros": [
+            "95",
+            "35",
+            "21"
+        ],
+        "fecha_original": "22 agosto",
+        "fecha": "2025-08-22",
+        "hora": "9:50PM",
+        "hora_scrapeo": "2025-08-22 22:04:13"
     }
 ]
