@@ -15592,5 +15592,22 @@
         "fecha": "2025-08-23",
         "hora": null,
         "hora_scrapeo": "2025-08-23 23:01:44"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Powerball Double Play",
+        "img": "",
+        "numeros": [
+            "09",
+            "23",
+            "24",
+            "33",
+            "44",
+            "19"
+        ],
+        "fecha_original": "23-08-2025 23:35",
+        "fecha": "2025-08-23",
+        "hora": null,
+        "hora_scrapeo": "2025-08-23 23:36:27"
     }
 ]
