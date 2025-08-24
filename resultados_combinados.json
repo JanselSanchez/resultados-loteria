@@ -15518,5 +15518,33 @@
         "fecha": "2025-08-23",
         "hora": null,
         "hora_scrapeo": "2025-08-23 21:17:27"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Florida Noche",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/florida-noche.png",
+        "numeros": [
+            "65",
+            "44",
+            "16"
+        ],
+        "fecha_original": "23-08-2025 21:52",
+        "fecha": "2025-08-23",
+        "hora": null,
+        "hora_scrapeo": "2025-08-23 21:59:08"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Loteria Florida Noche",
+        "img": "https://www.tusnumerosrd.com/images/loterias/florida.svg",
+        "numeros": [
+            "65",
+            "44",
+            "16"
+        ],
+        "fecha_original": "23 agosto",
+        "fecha": "2025-08-23",
+        "hora": "9:40PM",
+        "hora_scrapeo": "2025-08-23 21:59:20"
     }
 ]
