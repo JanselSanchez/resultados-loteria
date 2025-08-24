@@ -15459,5 +15459,47 @@
         "fecha": "2025-08-23",
         "hora": null,
         "hora_scrapeo": "2025-08-23 21:03:24"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Loteria Nacional Noche",
+        "img": "https://www.tusnumerosrd.com/images/loterias/nacional.svg",
+        "numeros": [
+            "90",
+            "63",
+            "74"
+        ],
+        "fecha_original": "23 agosto",
+        "fecha": "2025-08-23",
+        "hora": "8:52PM",
+        "hora_scrapeo": "2025-08-23 21:10:39"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Noche 9:00PM",
+        "img": "https://www.tusnumerosrd.com/images/loterias/anguila.svg",
+        "numeros": [
+            "75",
+            "89",
+            "17"
+        ],
+        "fecha_original": "23 agosto",
+        "fecha": "2025-08-23",
+        "hora": "8:55PM",
+        "hora_scrapeo": "2025-08-23 21:10:39"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Leidsa Noche",
+        "img": "https://www.tusnumerosrd.com/images/loterias/leidsa.svg",
+        "numeros": [
+            "84",
+            "94",
+            "65"
+        ],
+        "fecha_original": "23 agosto",
+        "fecha": "2025-08-23",
+        "hora": "8:53PM",
+        "hora_scrapeo": "2025-08-23 21:10:39"
     }
 ]
