@@ -17014,5 +17014,19 @@
         "fecha": "2025-08-25",
         "hora": "1:25PM",
         "hora_scrapeo": "2025-08-25 13:37:19"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "Anguila Tarde 2PM",
+        "img": "https://www.tusnumerosrd.com/images/loterias/anguila.svg",
+        "numeros": [
+            "75",
+            "63",
+            "87"
+        ],
+        "fecha_original": "25 agosto",
+        "fecha": "2025-08-25",
+        "hora": "1:55PM",
+        "hora_scrapeo": "2025-08-25 14:12:02"
     }
 ]
