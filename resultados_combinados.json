@@ -17173,5 +17173,17 @@
         "fecha": "2025-08-25",
         "hora": "4:55PM",
         "hora_scrapeo": "2025-08-25 17:06:03"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Anguila Tarde",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/anguila-tarde-6pm.png",
+        "numeros": [
+            "78"
+        ],
+        "fecha_original": "25-08-2025 18:00",
+        "fecha": "2025-08-25",
+        "hora": null,
+        "hora_scrapeo": "2025-08-25 18:01:21"
     }
 ]
