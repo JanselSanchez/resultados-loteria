@@ -17429,5 +17429,19 @@
         "fecha": "2025-08-25",
         "hora": "7:55PM",
         "hora_scrapeo": "2025-08-25 20:06:24"
+    },
+    {
+        "fuente": "tusnumerosrd.com",
+        "loteria": "La Primera Noche",
+        "img": "https://www.tusnumerosrd.com/images/loterias/primera.svg",
+        "numeros": [
+            "56",
+            "98",
+            "58"
+        ],
+        "fecha_original": "25 agosto",
+        "fecha": "2025-08-25",
+        "hora": "7:55PM",
+        "hora_scrapeo": "2025-08-25 20:13:29"
     }
 ]
