@@ -17765,5 +17765,18 @@
         "fecha": "2025-08-26",
         "hora": "8:55AM",
         "hora_scrapeo": "2025-08-26 09:04:43"
+    },
+    {
+        "fuente": "loteriasdominicanas.com",
+        "loteria": "Anguila Mañana",
+        "img": "https://cdn-lottery.kiskoo.com/loterias-dominicanas/anguila-manana-10am.png",
+        "numeros": [
+            "76",
+            "15"
+        ],
+        "fecha_original": "26-08-2025 10:00",
+        "fecha": "2025-08-26",
+        "hora": null,
+        "hora_scrapeo": "2025-08-26 10:00:42"
     }
 ]
